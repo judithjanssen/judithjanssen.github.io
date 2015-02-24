@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.color.secondary-dark }};
+    color: $secondary-dark;
 }
 
 .text-muted {
@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.color.primary }};
+    color: $primary;
 }
 
 p {
@@ -36,14 +36,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.color.primary }};
+    color: $primary;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.color.secondary }};
+    color: $secondary;
 }
 
 h1,
@@ -69,13 +69,18 @@ h6 {
     background-color: #222;
 }
 
+.btn {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .btn-primary {
-    border-color: #{{ site.color.primary }};
+    border-color: $primary;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: $primary;
 }
 
 .btn-primary:hover,
@@ -83,9 +88,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.color.primary }};
+    border-color: $primary;
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: $secondary;
 }
 
 .btn-primary:active,
@@ -109,25 +114,22 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: $primary;
+    background-color: $primary;
 }
 
 .btn-primary .badge {
-    color: #{{ site.color.primary }};
+    color: $primary;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.color.primary }};
+    border-color: $primary;
     border-radius: 3px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.color.primary }};
 }
 
 .btn-xl:hover,
@@ -135,9 +137,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.color.primary }};
+    border-color: $primary;
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: $secondary;
 }
 
 .btn-xl:active,
@@ -161,12 +163,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: $primary;
+    background-color: $primary;
 }
 
 .btn-xl .badge {
-    color: #{{ site.color.primary }};
+    color: $primary;
     background-color: #fff;
 }
 
@@ -177,14 +179,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.primary }};
+    color: $primary;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.color.secondary }};
+    color: $secondary;
 }
 
 .navbar-default .navbar-collapse {
@@ -192,8 +194,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.color.primary }};
-    background-color: #{{ site.color.primary }};
+    border-color: $primary;
+    background-color: $primary;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -202,7 +204,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.color.primary }};
+    background-color: $primary;
 }
 
 .navbar-default .nav li a {
@@ -216,26 +218,26 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: $primary;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: $primary;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.color.secondary }};
+    background-color: $secondary;
 }
 
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: rgba(0,0,0,0.1);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -266,9 +268,9 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
+    background-image: url(../img/nature-beach.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -276,7 +278,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 50px;
 }
 
@@ -289,18 +291,25 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
+    margin-bottom: 10px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
 }
 
+header .intro-text .intro-lead-out {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-bottom: 150px;
     }
 
     header .intro-text .intro-lead-in {
@@ -312,8 +321,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
+        margin-bottom: 20px;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 75px;
         font-weight: 700;
@@ -372,7 +380,6 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -495,7 +502,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: $primary;
 }
 
 .timeline>li .timeline-image h4 {
@@ -682,7 +689,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.color.primary }};
+    border-color: $primary;
     box-shadow: none;
 }
 
@@ -760,7 +767,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #{{ site.color.primary }};
+    background-color: $primary;
 }
 
 .btn:focus,
@@ -843,12 +850,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: $primary;
 }
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.color.primary }};
+    background: $primary;
 }
 
 img::selection {
@@ -860,5 +867,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #{{ site.color.primary }};
+    webkit-tap-highlight-color: $primary;
 }
