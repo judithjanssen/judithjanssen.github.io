@@ -353,6 +353,11 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+section h3.section-subheading.less-margin {
+    margin-bottom: 25px;
+}
+
+
 @media(min-width:768px) {
     section {
         padding: 100px 0;
