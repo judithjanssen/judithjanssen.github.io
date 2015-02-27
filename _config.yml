@@ -45,8 +45,6 @@ people:
 social:
   - title: facebook
     url: https://www.facebook.com/events/1560697344196163
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
 
 # Build settings
 markdown: kramdown
