@@ -7,32 +7,43 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-sm-offset-3 panel panel-default">
+                <div class="col-md-4 col-md-offset-2">
+                    <div class="price">
+                      <span class="strike"><span class="text-muted">450&euro;</span></span> 360&euro;
+                    </div>
+                    <p class="large text-muted">20% early bird discount until March 22nd.</p>
+                    <form action="https://stripe-checkout.herokuapp.com/" method="POST" class="text-center">
+                          <script
+                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="pk_test_x5XoBivQMaJfc5p8ONdAbC9o"
+                            data-image="/img/logo-judithjanssen.png"
+                            data-name="Focus! retreat booking"
+                            data-description="100% refund before April 1st"
+                            data-amount="36000"
+                            data-currency="EUR"
+                            data-label="Book now">
+                          </script>
+                        <input name="amount" value="36000" type="hidden">
+                        <input name="description" value="Booking for Focus! retreat" type="hidden">
+                    </form>
+                    
+                </div>
+                <div class="col-md-4 panel panel-default">
 
                     <div  class="panel-body">
-                    <form action="https://stripe-checkout.herokuapp.com/" method="POST" class="text-center">
-                      <script
-                        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                        data-key="pk_test_x5XoBivQMaJfc5p8ONdAbC9o"
-                        data-image="/img/logo-judithjanssen.png"
-                        data-name="Focus!"
-                        data-description="Retreat booking"
-                        data-amount="20000"
-                        data-currency="EUR"
-                        data-label="Book now">
-                      </script>
-                      <input name="amount" value="20000" type="hidden">
-                    <input name="description" value="Booking for Focus! retreat" type="hidden">
-                    </form>
-                
-                <br>
-                        <p class="large text-muted">Discounts: book with your friends and get special discounts:</p>
+                        <!--<p class="large text-muted">Discounts:</p>
                         <ul  class=" large text-muted">
                             <li>2 people: 10% discount.</li>
                             <li>3 people: 15% discount.</li>
                             <li>4 or more: 20% discount.</li>
+                        </ul>-->
+                        <p  class="large text-muted">Cancelation policy:</p>
+                        
+                        <ul class="large text-muted">
+                            <li>Cancelation before April 1st: 100% refund.</li>
+                            <li>Cancelation after April 1st (included): 5€ per day therafter.</li>
+                            <li>You can cancel by email or phone.</li>
                         </ul>
-                        <p  class="large text-muted">Cancelation policy: you get a 100% refund before April 1st. If you cancel later, a 5€ cancelation fee will be charged for every day after April 1st. You can cancel by email or phone.</p>
                 </div>
                 </div>
             </div>

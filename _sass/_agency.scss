@@ -835,3 +835,15 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: $primary;
 }
+
+.price {
+   font-size: 25px;
+   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   line-height: 1.5; 
+}
+
+.price .strike {
+    text-decoration: line-through;
+    color: red;
+    font-size: 0.8em;
+}
