@@ -9,6 +9,15 @@
                 </div>
             </div>
             <div class="row">
+            <div class="col-md-12">
+                        <h4>El Botánico de Sagra</h4>
+                    <h3 class="section-subheading text-muted less-margin">17.000 m² of exuberant nature, exotic fruit trees, flowers, the smell of jasmine and orange blossom in the air and perfectly integrated living spaces that combine the colors in surprising ways.</h3>
+
+                        <p class="text-muted large">The Botanical is at the foot of a mountain and surrounded by orange, almond, cherry and olive tree fields. It is located in Sagra, a small village of approximately 400 inhabitants in the countryside.
+</p>
+            </div>
+            </div>
+            <div class="row">
             {% for post in site.categories.location %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <div class="location-img">
@@ -20,13 +29,30 @@
                     </div>
                 </div>
             {% endfor %}
-            <div class="col-md-8 col-sm-12">
-                        <h4>El Botánico de Sagra</h4>
-                    <h3 class="section-subheading text-muted less-margin">17.000 m² of exuberant nature, exotic fruit trees, flowers, the smell of jasmine and orange blossom in the air and perfectly integrated living spaces that combine the colors in surprising ways. </h3>
-
-                        <p class="text-muted">The Botanical is at the foot of a mountain and surrounded by orange, almond, cherry and olive tree fields. It is located in Sagra, a small village of approximately 400 inhabitants in the countryside. Sagra is situated in the north of the Alicante province, on the Mediterranean coast of Spain, about an hour from Valencia airport and an hour from Alicante airport. This area has a huge variety of sceneries since it has a wonderful combination of countryside and mountains with breathtaking views and the seaside (just a 15 minute drive away) where you can find both extensive sandy beaches and incredible small rocky coves. If you want to extend your stay before or after the retreat, you can also visit other interesting towns such as Dénia, Jávea, Valencia and Altea or even take the ferry to Ibiza.
-</p>
-                </div>
             </div>
+            <div class="row">
+            <div class="col-md-12">
+                        <h4>Surroundings</h4>
+                    <h3 class="section-subheading text-muted less-margin">Sagra is situated in the north of the Alicante province, on the Mediterranean coast of Spain, about an hour from Valencia airport and Alicante airports.</h3>
+
+                        <p class="text-muted large">This area has a huge variety of sceneries since it has a wonderful combination of countryside and mountains with breathtaking views and the seaside (just a 15 minute drive away) where you can find both extensive sandy beaches and incredible small rocky coves. If you want to extend your stay before or after the retreat, you can also visit other interesting towns such as Dénia, Jávea, Valencia and Altea or even take the ferry to Ibiza.
+</p>
+            </div>
+            </div>
+            <div class="row">
+            {% for post in site.categories.surroundings %}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <div class="location-img">
+                    <img src="img/{{ post.thumbnail }}" class="img-responsive" alt="{{ post.subtitle }}">
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+            
+            
         </div>
     </section>

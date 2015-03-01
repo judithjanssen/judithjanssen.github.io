@@ -5,7 +5,7 @@ baseurl: ''
 title: Judith Janssen
 logo: "/img/firma-judith-janssen.svg"
 email: judithjanssen@gmail.com
-description: "BODY-MIND BALANCE AND EMPOWERMENT"
+description: "4-day body-mind centering retreat by the mediterranean sea"
 
 # Team names, titles and social links
 people:
@@ -46,6 +46,10 @@ people:
 social:
   - title: facebook
     url: https://www.facebook.com/events/1560697344196163
+  - title: linkedin
+    url: https://www.linkedin.com/in/judithjanssen
+  - title: envelope
+    url: mailto:judithjanssen@gmail.com
 
 # Build settings
 markdown: kramdown

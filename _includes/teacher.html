@@ -9,9 +9,10 @@
                         <img src="img/team/judithjanssen2.jpg" class="img-responsive img-circle" alt="">
                         <br>
                         <ul class="list-inline social-buttons">
-                            <li><a href="https://www.facebook.com/judith.janssen.14"><i class="fa fa-facebook"></i></a>
-                            <li><a href="http://twitter.com/infoyoga"><i class="fa fa-twitter"></i></a>
-                            <li><a href="https://www.linkedin.com/in/judithjanssen"><i class="fa fa-linkedin"></i></a>
+                            {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
                         </ul>
                     </div>
                 </div>
