@@ -235,6 +235,17 @@ fieldset[disabled] .btn-xl.active {
     background-color: $secondary;
 }
 
+.panel-default > .panel-heading {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: $secondary;
+}
+
+.panel-body {
+    padding: 15px 15px 15px 30px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -345,7 +356,7 @@ section {
 }
 
 .extra-margin {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 section h2.section-heading {
