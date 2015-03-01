@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: no-menu
 ---
 
-# Payment KO. 
+# There was a problem on the payment process. 
 
-Try again!
+Please try again and contact us if it happens again.
+
