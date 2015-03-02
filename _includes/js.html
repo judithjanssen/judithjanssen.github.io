@@ -8,7 +8,20 @@
     <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/jquery.scrolldepth.min.js" | prepend: site.baseurl }}"></script>
     
+    <script>
+      jQuery(function() {
+        jQuery.scrollDepth({
+          minHeight: 2000,
+          elements: ['#description', '#location', '#schedule', '#teacher', '#register'],
+          percentage: false,
+          userTiming: false,
+          pixelDepth: false,
+          nonInteraction: false
+        });
+      });
+    </script>
 
     <!-- Custom Theme JavaScript -->
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
