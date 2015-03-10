@@ -1,73 +1,40 @@
+{% assign data = site.data.focus.register[page.lang] %}
 <section id="register">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="section-heading text-center">Register now!</h2>
-                    <h3 class="section-subheading text-muted text-center less-margin">Book now to secure your place. Spaces are limited and we follow a first-come, first-served policy.
-                    <br>
-                    Have any questions? <a href="judith.janssen@gmail.com">Email me</a> or <a href="https://www.facebook.com/events/1560697344196163">leave a comment in Facebook</a>.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="text-center center-block">
-                    <div class="price">
-                      <span class="strike"><span class="text-muted">450&euro;</span></span> 360&euro;
-                    </div>
-                    <p class="large text-muted">20% early bird discount until March 22nd.</p>
-                    <form action="https://stripe-checkout.herokuapp.com/" method="POST" class="text-center">
-                          <script
-                            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                            data-key="pk_live_xXsT6VFJxlKIp2xEMHowLL64"
-                            data-image="/img/logo-judithjanssen.png"
-                            data-name="Focus! retreat booking"
-                            data-description="100% refund before April 1st"
-                            data-amount="36000"
-                            data-currency="EUR"
-                            data-label="Book now"
-                            data-allow-remember-me="false">
-                          </script>
-                        <input name="amount" value="36000" type="hidden">
-                        <input name="description" value="Booking for Focus! retreat" type="hidden">
-                    </form>
-                    <br>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                  <div class="panel panel-default">
-                    <div class="panel-heading">Included:</div>
-                        <ul class="text-muted panel-body">
-                            <li>All yoga, body awareness and meditation sessions.</li>
-                            <li>Brunch and dinner, drinks, tea, coffee, fruit and healthy snacks.</li>
-                            <li>Accommodation in shared double bedroom with private bathroom.</li>
-                            <li>Use of all the facilities on premise: spring water swimming pool, fronton court, botanical garden with hide-away lounge spaces, wi-fi connection.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                   <div class="panel panel-default">
-                        <div class="panel-heading">Not included:</div>
-                        <ul  class="panel-body text-muted">
-                            <li>Plane ticket to Alicante or Valencia airport.</li>
-                            <li>Car rental or airport shuttle.</li>
-                            <li>Optional private room additional charge (35€ per night).</li>
-                            <li>Optional activities such as massage treatments, bike rental, hiking guide (consult prices).</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-
-                        <div class="panel-heading">Cancelation policy</div>
-                        
-                        <ul class="panel-body text-muted">
-                            <li>Cancelation before April 1st: 100% refund.</li>
-                            <li>Cancelation after April 1st (included): 5€ per day thereafter.</li>
-                            <li>You can cancel by email or phone.</li>
-                        </ul>
-                    </div>
-                    
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading text-center">{{ data.heading }}</h2>
+                <h3 class="section-subheading text-muted text-center less-margin">{{ data.subheading }}</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+            <div class="text-center center-block">
+                <div class="price">
+                    {{ data.price }}
+                </div>
+                <p class="large text-muted">{{ data.discount }}</p>
+                <form action="https://stripe-checkout.herokuapp.com/" method="POST" class="text-center">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="pk_live_xXsT6VFJxlKIp2xEMHowLL64" data-image="/img/logo-judithjanssen.png" data-name="Focus! retreat booking" data-description="100% refund before April 1st" data-amount="36000" data-currency="EUR" data-label="{{ data.call_to_action }}" data-allow-remember-me="false">
+                    </script>
+                    <input name="amount" value="36000" type="hidden">
+                    <input name="description" value="Booking for Focus! retreat" type="hidden">
+                </form>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+        {% for panel in data.panels %}
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Included:</div>
+                    <ul class="text-muted panel-body">
+                    {% for item in panel.items %}
+                        <li>{{ item }}</li>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        {% endfor %}  
+        </div>
+    </div>
+</section>
