@@ -1,0 +1,110 @@
+en:
+  heading: Location
+  subheading: 'focus retreat will take place at El Botánico de Sagra, a magical little world of intense color'
+  location: 
+    title: 'El Botánico de Sagra'
+    description: 
+      - class: 'text-muted large'
+        content: '17.000 m² of exuberant nature, exotic fruit trees, flowers, the smell of jasmine and orange blossom in the air and perfectly integrated living spaces that combine the colors in surprising ways.'
+      - class: 'text-muted large'
+        content: 'The Botanical is at the foot of a mountain and surrounded by orange, almond, cherry and olive tree fields. It is located in Sagra, a small village of approximately 400 inhabitants in the countryside.'
+    images:
+      - url:   botanico/piscina.jpg
+        title: Swimming pool
+        alt:   Spring water swimming pool
+      - url:   botanico/sala-yoga.jpg
+        title: Yoga Space
+        alt:   The yoga space by the swimming pool
+      - url:   botanico/dining-room.jpg
+        title: Kitchen and dining space
+        alt:   Kitchen and dining space
+      - url:   botanico/malva1.jpg
+        title: Casa Malva
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/bodega2.jpg
+        title: Bodega
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul4.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul3.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul2.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/roja.jpg
+        title: Casa roja
+        alt:   Exotic living room in the Casa Roja
+  surroundings:
+    title: 'Surroundings'
+    description: 
+      - class: 'text-muted large'
+        content: 'Sagra is situated in the north of the Alicante province, on the Mediterranean coast of Spain, about an hour from Valencia airport and Alicante airports.'
+      - class: 'text-muted large'
+        content: 'This area has a huge variety of sceneries since it has a wonderful combination of countryside and mountains with breathtaking views and the seaside (just a 15 minute drive away) where you can find both extensive sandy beaches and incredible small rocky coves. If you want to extend your stay before or after the retreat, you can also visit other interesting towns such as Dénia, Jávea, Valencia and Altea or even take the ferry to Ibiza.'
+    images:
+      - url: 'botanico/deniaplaya.jpg'
+        title: 'Denia Beach'
+        alt: 'Natural beach with views at the Montgó mountain'
+      - url: 'botanico/vall_de_laguar.jpg'
+        title: 'Vall de Laguar'
+        alt: 'Breathtaking views from Vall de Laguar'
+      - url: 'botanico/cala-ambolo.jpg'
+        title: 'Cala Ambolo (Jávea)'
+        alt: 'Beautiful cala Ambolo near Jávea'
+nl:
+  heading: Locatie
+  subheading: 'focus retreat will take place at El Botánico de Sagra, a magical little world of intense color'
+  location: 
+    title: 'El Botánico de Sagra'
+    description: 
+      - class: 'text-muted large'
+        content: '17.000 m² of exuberant nature, exotic fruit trees, flowers, the smell of jasmine and orange blossom in the air and perfectly integrated living spaces that combine the colors in surprising ways.'
+      - class: 'text-muted large'
+        content: 'The Botanical is at the foot of a mountain and surrounded by orange, almond, cherry and olive tree fields. It is located in Sagra, a small village of approximately 400 inhabitants in the countryside.'
+    images:
+      - url:   botanico/piscina.jpg
+        title: Swimming pool
+        alt:   Spring water swimming pool
+      - url:   botanico/sala-yoga.jpg
+        title: Yoga Space
+        alt:   The yoga space by the swimming pool
+      - url:   botanico/dining-room.jpg
+        title: Kitchen and dining space
+        alt:   Kitchen and dining space
+      - url:   botanico/malva1.jpg
+        title: Casa Malva
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/bodega2.jpg
+        title: Bodega
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul4.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul3.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul2.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/roja.jpg
+        title: Casa roja
+        alt:   Exotic living room in the Casa Roja
+  surroundings:
+    title: 'Surroundings'
+    description: 
+      - class: 'text-muted large'
+        content: 'Sagra is situated in the north of the Alicante province, on the Mediterranean coast of Spain, about an hour from Valencia airport and Alicante airports.'
+      - class: 'text-muted large'
+        content: 'This area has a huge variety of sceneries since it has a wonderful combination of countryside and mountains with breathtaking views and the seaside (just a 15 minute drive away) where you can find both extensive sandy beaches and incredible small rocky coves. If you want to extend your stay before or after the retreat, you can also visit other interesting towns such as Dénia, Jávea, Valencia and Altea or even take the ferry to Ibiza.'
+    images:
+      - url: 'botanico/deniaplaya.jpg'
+        title: 'Denia Beach'
+        alt: 'Natural beach with views at the Montgó mountain'
+      - url: 'botanico/vall_de_laguar.jpg'
+        title: 'Vall de Laguar'
+        alt: 'Breathtaking views from Vall de Laguar'
+      - url: 'botanico/cala-ambolo.jpg'
+        title: 'Cala Ambolo (Jávea)'
+        alt: 'Beautiful cala Ambolo near Jávea'

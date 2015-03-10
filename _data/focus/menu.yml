@@ -1,0 +1,22 @@
+en:
+  - label: Description
+    id: description
+  - label: Location
+    id: location
+  - label: Schedule
+    id: schedule    
+  - label: About me
+    id: teacher
+  - label: Register
+    id: register
+nl:
+  - label: Info
+    id: description
+  - label: Locatie
+    id: location
+  - label: Schedule
+    id: schedule    
+  - label: About me
+    id: teacher
+  - label: Register
+    id: register  
