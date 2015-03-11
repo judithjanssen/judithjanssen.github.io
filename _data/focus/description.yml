@@ -1,0 +1,44 @@
+en:
+  heading: 'Description'
+  subheading: 'This retreat offers you a mix of dynamic yoga sessions that will increase alignment and body awareness and restorative practices to unwind your body and mind and deepen your inner focus. '
+  iconized:
+    - icon: 'fa-heartbeat'
+      title: 'Healthy exercise'
+      body: 'An active daily routine with morning and evening yoga sessions to unwind your body and mind and other optional outdoor activities to enjoy yourself and the landscape.'
+    - icon: 'fa-sun-o'
+      title: 'Healthy weather'
+      body: 'We can´t 100% guarantee that the sun will shine, but, come on, we are talking about the end of May at the sunniest coast in Europe. Don´t forget to bring your sunscreen.'
+    - icon: 'fa-cutlery'
+      title: 'Healthy food'
+      body: 'Great vegetarian dishes cooked with love and the best local and organic ingredients to give your body a healthy boost.'
+  # Why focus?
+  title: 'Why focus?'
+  subtitle: 'Attention, in all its varieties, has a very powerful influence on the way we feel and the way we move through life. '
+  paragraphs:
+    - '<strong>The internal focus helps us connect with our intuitions and values</strong> that guide us, favoring the process of decision making; the external focus helps us navigate the world around us; and focus on others improves our social life.'
+    - 'Modern society however, does not facilitate the cultivation of attention.'
+    - 'The speeded-up, highly complex society we live in, where <strong>we have a non-stop stream of distractions coming in</strong> through our smartphones and laptops feeds our so-called <em>monkey mind</em>, with very short attention spans and scattered thoughts.'
+    - 'The good news is: <strong>you can train your brain</strong>! (and your body while you are at it :)'
+    - '<strong>I invite you to step into the miraculous world that is your body and mind</strong>, become close, and start refining your inner focus.'
+nl:
+  heading: 'Description'
+  subheading: 'This retreat offers you a mix of dynamic yoga sessions that will increase alignment and body awareness and restorative practices to unwind your body and mind and deepen your inner focus. '
+  iconized:
+    - icon: 'fa-heartbeat'
+      title: 'Healthy exercise'
+      body: 'An active daily routine with morning and evening yoga sessions to unwind your body and mind and other optional outdoor activities to enjoy yourself and the landscape.'
+    - icon: 'fa-sun-o'
+      title: 'Healthy weather'
+      body: 'We can´t 100% guarantee that the sun will shine, but, come on, we are talking about the end of May at the sunniest coast in Europe. Don´t forget to bring your sunscreen.'
+    - icon: 'fa-cutlery'
+      title: 'Healthy food'
+      body: 'Great vegetarian dishes cooked with love and the best local and organic ingredients to give your body a healthy boost.'
+  # Why focus?
+  title: 'Why focus?'
+  subtitle: 'Attention, in all its varieties, has a very powerful influence on the way we feel and the way we move through life. '
+  paragraphs:
+    - '<strong>The internal focus helps us connect with our intuitions and values</strong> that guide us, favoring the process of decision making; the external focus helps us navigate the world around us; and focus on others improves our social life.'
+    - 'Modern society however, does not facilitate the cultivation of attention.'
+    - 'The speeded-up, highly complex society we live in, where <strong>we have a non-stop stream of distractions coming in</strong> through our smartphones and laptops feeds our so-called <em>monkey mind</em>, with very short attention spans and scattered thoughts.'
+    - 'The good news is: <strong>you can train your brain</strong>! (and your body while you are at it :)'
+    - '<strong>I invite you to step into the miraculous world that is your body and mind</strong>, become close, and start refining your inner focus.'

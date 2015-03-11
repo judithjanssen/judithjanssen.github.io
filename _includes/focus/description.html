@@ -1,4 +1,5 @@
-<!-- Services Section -->
+{% assign data = site.data.focus.description[page.lang] %}
+<!-- Description Section -->
     <section id="description">
         <div class="container">
             <div class="row">
@@ -37,17 +38,12 @@
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
-                    <h2 class="section-heading text-center">Why focus?</h2>
+                    <h2 class="section-heading text-center">{{ data.title }}</h2>
 
-                    <h3 class="section-subheading text-muted text-center less-margin">Attention, in all its varieties, has a very powerful influence on the way we feel and the way we move through life. </h3>
-                
-                    <p class="text-muted large"><strong>The internal focus helps us connect with our intuitions and values</strong> that guide us, favoring the process of decision making; the external focus helps us navigate the world around us; and focus on others improves our social life.</p>
-                    <p class="text-muted large">Modern society however, does not facilitate the cultivation of attention.</p>
-                    <p class="text-muted large">The speeded-up, highly complex society we live in, where <strong>we have a non-stop stream of distractions coming in</strong> through our smartphones and laptops feeds our so-called <em>monkey mind</em>, with very short attention spans and scattered thoughts.</p>
-                    <p class="text-muted large">The good news is: <strong>you can train your brain</strong>! (and your body while you are at it :)</p>
-                    <br>                   
-                    <h3 class="section-subheading text-muted text-center">
-                    <strong>I invite you to step into the miraculous world that is your body and mind</strong>, become close, and start refining your inner focus.</h3>
+                    <h3 class="section-subheading text-muted text-center less-margin">{{ data.subtitle }}</h3>
+                    {% for paragraph in data.paragraphs %}
+                      <p class="text-muted large">{{ paragraph }}</p>
+                    {% endfor %}
                 </div>
             </div>
         </div>

@@ -1,22 +1,31 @@
 en:
   - label: Description
     id: description
+    class: page-scroll
   - label: Location
     id: location
+    class: page-scroll
   - label: Schedule
     id: schedule    
+    class: page-scroll
   - label: About me
     id: teacher
   - label: Register
     id: register
+    class: page-scroll btn btn-xl
 nl:
   - label: Info
     id: description
+    class: page-scroll
   - label: Locatie
     id: location
+    class: page-scroll
   - label: Schedule
     id: schedule    
+    class: page-scroll
   - label: About me
     id: teacher
+    class: page-scroll
   - label: Register
     id: register  
+    class: page-scroll btn btn-xl

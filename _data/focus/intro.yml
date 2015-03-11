@@ -1,0 +1,16 @@
+en:
+  heading: 'focus'
+  subheading: '4-day mind & body retreat by the mediterranean sea'
+  date: '21 - 25 of May 2015'
+  buttons:
+    - label: 'Zoom in'
+      link: '#description'
+      class: 'page-scroll btn btn-xl'
+nl:
+  heading: 'focus'
+  subheading: '4-day mind & body retreat by the mediterranean sea'
+  date: '21 - 25 of May 2015'
+  buttons:
+    - label: 'Zoom in'
+      link: '#description'
+      class: 'page-scroll btn btn-xl'

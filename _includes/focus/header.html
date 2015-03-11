@@ -19,7 +19,7 @@
                     </li>
                     {% for item in site.data.focus.menu[page.lang] %}
                     <li>
-                        <a class="page-scroll" href="#{{ item.id }}">{{ item.label }}</a>
+                        <a class="{{ item.class }}" href="#{{ item.id }}">{{ item.label }}</a>
                     </li>
                     {% endfor %}
                 </ul>
