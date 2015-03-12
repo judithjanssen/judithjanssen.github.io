@@ -27,7 +27,7 @@
         {% for panel in data.panels %}
             <div class="col-md-4">
                 <div class="panel panel-default">
-                    <div class="panel-heading">{{ data.name }}</div>
+                    <div class="panel-heading">{{ panel.name }}</div>
                     <ul class="text-muted panel-body">
                     {% for item in panel.items %}
                         <li>{{ item }}</li>
