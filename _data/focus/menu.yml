@@ -10,6 +10,7 @@ en:
     class: page-scroll
   - label: About me
     id: teacher
+    class: page-scroll
   - label: Register
     id: register
     class: page-scroll btn btn-xl
