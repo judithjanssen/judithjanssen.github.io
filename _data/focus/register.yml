@@ -12,23 +12,23 @@ en:
   discount: '20% early bird discount until March 22nd.'
   call_to_action: Book now
   panels:
-    - name: Included
+    - name: 'Included'
       items:
-        - All yoga, body awareness and meditation sessions.
-        - Brunch and dinner, drinks, tea, coffee, fruit and healthy snacks.
-        - Accommodation in shared double bedroom with private bathroom.
-        - Use of all the facilities on premise: spring water swimming pool, fronton court, botanical garden with hide-away lounge spaces, wi-fi connection.
-    - name: Not Included
+        - 'All yoga, body awareness and meditation sessions.'
+        - 'Brunch and dinner, drinks, tea, coffee, fruit and healthy snacks.'
+        - 'Accommodation in shared double bedroom with private bathroom.'
+        - 'Use of all the facilities on premise: spring water swimming pool, fronton court, botanical garden with hide-away lounge spaces, wi-fi connection.'
+    - name: 'Not Included'
       items:
-        - Plane ticket to Alicante or Valencia airport.
-        - Car rental or airport shuttle.
-        - Optional private room additional charge (35€ per night).
-        - Optional activities such as massage treatments, bike rental, hiking guide (consult prices).
-    - name: Cancelation Policy
+        - 'Plane ticket to Alicante or Valencia airport.'
+        - 'Car rental or airport shuttle.'
+        - 'Optional private room additional charge (35€ per night).'
+        - 'Optional activities such as massage treatments, bike rental, hiking guide (consult prices).'
+    - name: 'Cancelation Policy'
       items:
-        - Cancelation before April 1st: 100% refund.
-        - Cancelation after April 1st (included): 5€ per day thereafter.
-        - You can cancel by email or phone.
+        - 'Cancelation before April 1st: 100% refund.'
+        - 'Cancelation after April 1st (included): 5€ per day thereafter.'
+        - 'You can cancel by email or phone.'
 nl:
   heading: Book now!
   subheading: >
@@ -43,20 +43,20 @@ nl:
   discount: '20% early bird discount until March 22nd.'
   call_to_action: Book now
   panels:
-    - name: Included
+    - name: 'Included'
       items:
-        - All yoga, body awareness and meditation sessions.
-        - Brunch and dinner, drinks, tea, coffee, fruit and healthy snacks.
-        - Accommodation in shared double bedroom with private bathroom.
-        - Use of all the facilities on premise: spring water swimming pool, fronton court, botanical garden with hide-away lounge spaces, wi-fi connection.
-    - name: Not Included
+        - 'All yoga, body awareness and meditation sessions.'
+        - 'Brunch and dinner, drinks, tea, coffee, fruit and healthy snacks.'
+        - 'Accommodation in shared double bedroom with private bathroom.'
+        - 'Use of all the facilities on premise: spring water swimming pool, fronton court, botanical garden with hide-away lounge spaces, wi-fi connection.'
+   - name: 'Not Included'
       items:
-        - Plane ticket to Alicante or Valencia airport.
-        - Car rental or airport shuttle.
-        - Optional private room additional charge (35€ per night).
-        - Optional activities such as massage treatments, bike rental, hiking guide (consult prices).
-    - name: Cancelation Policy
+        - 'Plane ticket to Alicante or Valencia airport.'
+        - 'Car rental or airport shuttle.'
+        - 'Optional private room additional charge (35€ per night).'
+        - 'Optional activities such as massage treatments, bike rental, hiking guide (consult prices).'
+    - name: 'Cancelation Policy'
       items:
-        - Cancelation before April 1st: 100% refund.
-        - Cancelation after April 1st (included): 5€ per day thereafter.
-        - You can cancel by email or phone.
+        - 'Cancelation before April 1st: 100% refund.'
+        - 'Cancelation after April 1st (included): 5€ per day thereafter.'
+        - 'You can cancel by email or phone.'
