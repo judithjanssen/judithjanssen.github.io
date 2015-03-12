@@ -1,12 +1,12 @@
 <div id="lang-switcher" class="btn-group dropup">
-  <button type="button" class="btn btn-xs dropdown-toggle" data-toggle="dropdown">
-    <span class="lang-xs" lang="{{ page.lang }}"></span> <span class="caret"></span>
+  <button type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
+    <span class="lang-sm" lang="{{ page.lang }}"></span> <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
     {% if page.lang == 'en' %}
-    <li><a href="/nl"><span class="lang-xs" lang="nl"></span></a></li>
+    <li><a href="/nl"><span class="lang-sm" lang="nl"></span></a></li>
 	{% else %}
-    <li><a href="/"><span class="lang-xs" lang="en"></span></a></li>
+    <li><a href="/"><span class="lang-sm" lang="en"></span></a></li>
 	{% endif %}
   </ul>
 </div>

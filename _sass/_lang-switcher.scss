@@ -1,0 +1,28 @@
+
+#lang-switcher {
+    z-index: 1000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#lang-switcher .btn, 
+#lang-switcher ul.dropdown-menu {
+  padding: 5px 5px;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 3px;
+  border-color: $primary;
+  border-radius: 3px;
+  background-color: transparent;
+  min-width: 0;
+}
+
+#lang-switcher .dropdown-menu > li > a:focus,
+#lang-switcher .dropdown-menu > li > a:hover {
+  background-color: transparent;
+}
+
+#lang-switcher .dropdown-menu > li > a {
+    padding: 2px 12px 2px 0px;
+}
