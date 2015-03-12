@@ -26,9 +26,9 @@ en:
         - 'Optional activities such as massage treatments, bike rental, hiking guide (consult prices).'
     - name: 'Cancelation Policy'
       items:
-        - 'Cancelation before April 1st: 100% refund.'
-        - 'Cancelation after April 1st (included): 5€ per day thereafter.'
-        - 'You can cancel by email or phone.'
+        - "Cancelation before April 1st: 100% refund."
+        - "Cancelation after April 1st (included): 5€ per day thereafter."
+        - "You can cancel by email or phone."
 nl:
   heading: Book now!
   subheading: >
@@ -50,7 +50,7 @@ nl:
         - 'Accommodation in shared double bedroom with private bathroom.'
         - 'Use of all the facilities on premise: spring water swimming pool, fronton court, botanical garden with hide-away lounge spaces, wi-fi connection.'
    - name: 'Not Included'
-      items:
+     items:
         - 'Plane ticket to Alicante or Valencia airport.'
         - 'Car rental or airport shuttle.'
         - 'Optional private room additional charge (35€ per night).'
