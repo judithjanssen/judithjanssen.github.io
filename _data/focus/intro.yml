@@ -8,9 +8,9 @@ en:
       class: 'page-scroll btn btn-xl'
 nl:
   heading: 'focus'
-  subheading: '4-day mind & body retreat by the mediterranean sea'
-  date: '21 - 25 of May 2015'
+  subheading: '4-daagse yogavakantie aan de Middellandse zee'
+  date: '21 - 25 Mei 2015'
   buttons:
-    - label: 'Zoom in'
+    - label: 'Lees meer'
       link: '#description'
       class: 'page-scroll btn btn-xl'
