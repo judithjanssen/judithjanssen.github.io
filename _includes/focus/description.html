@@ -4,37 +4,24 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 text-center">
-                    <h2 class="section-heading">Description</h2>
+                    <h2 class="section-heading">{{ data.heading }}</h2>
 
-                    <h3 class="section-subheading text-muted">This retreat offers you a mix of dynamic yoga sessions that will increase alignment and body awareness and restorative practices to unwind your body and mind and deepen your inner focus. </h3>
+                    <h3 class="section-subheading text-muted">{{ data.subheading }}</h3>
 
                 </div>
             </div>
             <div class="row text-center extra-margin">
+            {% for feature in data.iconized %}
+
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-heartbeat fa-stack-1x fa-inverse"></i>
+                        <i class="fa {{ feature.icon }} fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Healthy exercise</h4>
-                    <p class="text-muted">An active daily routine with morning and evening yoga sessions to unwind your body and mind and other optional outdoor activities to enjoy yourself and the landscape.</p>
+                    <h4 class="service-heading">{{ feature.title }}</h4>
+                    <p class="text-muted">{{ feature.body }}</p>
                 </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-sun-o fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Healthy weather</h4>
-                    <p class="text-muted">We can´t 100% guarantee that the sun will shine, but, come on, we are talking about the end of May at the sunniest coast in Europe. Don´t forget to bring your sunscreen.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-cutlery fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="service-heading">Healthy food</h4>
-                    <p class="text-muted">Great vegetarian dishes cooked with love and the best local and organic ingredients to give your body a healthy boost.</p>
-                </div>
+            {% endfor %}
             </div>
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
