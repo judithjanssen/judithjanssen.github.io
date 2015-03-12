@@ -55,56 +55,56 @@ en:
         alt: 'Beautiful cala Ambolo near Jávea'
 nl:
   heading: Locatie
-  subheading: 'focus retreat will take place at El Botánico de Sagra, a magical little world of intense color'
+  subheading: 'Het yogaweekend vindt plaats in El Botánico de Sagra, een magische kleine wereld van intense kleur'
   location: 
     title: 'El Botánico de Sagra'
     description: 
       - class: 'text-muted large'
-        content: '17.000 m² of exuberant nature, exotic fruit trees, flowers, the smell of jasmine and orange blossom in the air and perfectly integrated living spaces that combine the colors in surprising ways.'
+        content: '17.000 m² uitbundige natuur, exotische fruitbomen, bloemen, de geur van jasmijn en oranjebloesem in de lucht en perfect geïntegreerde woonruimtes.'
       - class: 'text-muted large'
-        content: 'The Botanical is at the foot of a mountain and surrounded by orange, almond, cherry and olive tree fields. It is located in Sagra, a small village of approximately 400 inhabitants in the countryside.'
+        content: 'El Botánico ligt aan de voet van een berg en wordt omringd door velden sinaasappel-, amandel-, kersen- en olijfbomen. Het is gelegen in Sagra, een klein dorpje van ongeveer 400 inwoners op het platteland van Zuid-Oost Spanje, op 15 minuten afstand van zee.'
     images:
       - url:   botanico/piscina.jpg
-        title: Swimming pool
-        alt:   Spring water swimming pool
+        title: Bronwaterzwembad
+        alt:   Bronwaterzwembad
       - url:   botanico/sala-yoga.jpg
-        title: Yoga Space
-        alt:   The yoga space by the swimming pool
+        title: Yogaruimte
+        alt:   De yogaruimte kijkt uit over het zwembad
       - url:   botanico/dining-room.jpg
-        title: Kitchen and dining space
-        alt:   Kitchen and dining space
+        title: Keuken en eetgedeelte
+        alt:   Keuken en eetgedeelte
       - url:   botanico/malva1.jpg
         title: Casa Malva
-        alt:   Beatuiful living room in the Casa Azul
+        alt:   Prachtig terras bij Casa Malva
       - url:   botanico/bodega2.jpg
         title: Bodega
-        alt:   Beatuiful living room in the Casa Azul
+        alt:   Prachtige woonkamer in la Bodega
       - url:   botanico/azul4.jpg
         title: Casa azul
-        alt:   Beatuiful living room in the Casa Azul
+        alt:   Prachtige slaapkamer in la Casa Azúl
       - url:   botanico/azul3.jpg
         title: Casa azul
-        alt:   Beatuiful living room in the Casa Azul
+        alt:   La Casa Azúl
       - url:   botanico/azul2.jpg
         title: Casa azul
-        alt:   Beatuiful living room in the Casa Azul
+        alt:   Geweldig uitlopend terras bij slaapkamer 
       - url:   botanico/roja.jpg
         title: Casa roja
-        alt:   Exotic living room in the Casa Roja
+        alt:   Exotische woonkamer in la Casa Roja
   surroundings:
-    title: 'Surroundings'
+    title: 'Omgeving'
     description: 
       - class: 'text-muted large'
-        content: 'Sagra is situated in the north of the Alicante province, on the Mediterranean coast of Spain, about an hour from Valencia airport and Alicante airports.'
+        content: 'Sagra bevindt zich in het noorden van de provincie Alicante, aan de Middellandse Zeekust van Spanje, een uur van de luchthavens van zowel Valencia als Alicante.'
       - class: 'text-muted large'
-        content: 'This area has a huge variety of sceneries since it has a wonderful combination of countryside and mountains with breathtaking views and the seaside (just a 15 minute drive away) where you can find both extensive sandy beaches and incredible small rocky coves. If you want to extend your stay before or after the retreat, you can also visit other interesting towns such as Dénia, Jávea, Valencia and Altea or even take the ferry to Ibiza.'
+        content: 'Dit gebied heeft een enorme verscheidenheid aan landschappen omdat het een prachtige combinatie is van platteland en bergen met een adembenemend uitzicht en de prachtige kust (op slechts 15 minuten rijden) waar je zowel witte zandstranden als kleine rotsachtige baaien kunt vinden. Als je je verblijf voor of na het weekend wil verlengen, kun je ook andere interessante plaatsen bezoeken, zoals Dènia, Jávea, Altea en Valencia of zelfs de veerboot nemen naar Ibiza.'
     images:
       - url: 'botanico/deniaplaya.jpg'
-        title: 'Denia Beach'
-        alt: 'Natural beach with views at the Montgó mountain'
+        title: 'Strand bij Denia'
+        alt: 'Uitgestrekt zandstrand met uitzicht op de Montgó berg'
       - url: 'botanico/vall_de_laguar.jpg'
         title: 'Vall de Laguar'
-        alt: 'Breathtaking views from Vall de Laguar'
+        alt: 'Adembenemende uitzichten vanaf de Vall de Laguar'
       - url: 'botanico/cala-ambolo.jpg'
         title: 'Cala Ambolo (Jávea)'
-        alt: 'Beautiful cala Ambolo near Jávea'
+        alt: 'Prachtige baai vlakbij Jávea'
