@@ -20,12 +20,12 @@ nl:
   - label: Locatie
     id: locatie
     class: page-scroll
-  - label: Schedule
+  - label: Programma
     id: programma    
     class: page-scroll
-  - label: About me
+  - label: Over mij
     id: over mij
     class: page-scroll
-  - label: Register
+  - label: Reserveren
     id: reserveren  
     class: page-scroll btn btn-xl
