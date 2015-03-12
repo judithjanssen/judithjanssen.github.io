@@ -1,4 +1,3 @@
-
 #lang-switcher {
     z-index: 1000;
     position: fixed;
@@ -14,8 +13,13 @@
   border-radius: 3px;
   border-color: $primary;
   border-radius: 3px;
-  background-color: transparent;
+  background-color: rgba(0,0,0,0.1);
   min-width: 0;
+
+}
+
+#lang-switcher .btn:hover{
+  color: $primary;
 }
 
 #lang-switcher .dropdown-menu > li > a:focus,
