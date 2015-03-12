@@ -15,17 +15,17 @@ en:
     class: page-scroll btn btn-xl
 nl:
   - label: Info
-    id: beschrijving
+    id: description
     class: page-scroll
   - label: Locatie
-    id: locatie
+    id: location
     class: page-scroll
   - label: Programma
-    id: programma    
+    id: schedule    
     class: page-scroll
   - label: Over mij
-    id: over mij
+    id: teacher
     class: page-scroll
   - label: Reserveren
-    id: reserveren  
+    id: register  
     class: page-scroll btn btn-xl
