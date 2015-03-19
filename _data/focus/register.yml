@@ -1,16 +1,14 @@
 en:
   heading: 'Register now!'
   subheading: >
-    Book now to secure your place.
-    Spaces are limited and we follow a first-come, 
-    first-served policy.
+    Book now to secure your place (<strong>only 5 spots left</strong>).
     <br>
     Have any questions?
     <a href="mailto:judith.janssen@gmail.com">Email me</a> or
     <a href="https://www.facebook.com/events/1560697344196163">leave a comment in Facebook</a>.
   price: '<span class="strike"><span class="text-muted">450&euro;</span></span> 360&euro;'
   discount: '20% early bird discount until March 22nd.'
-  call_to_action: 'Book now'
+  call_to_action: 'Book now (May 21-25)'
   panels:
     - name: 'Included'
       items:
@@ -32,14 +30,14 @@ en:
 nl:
   heading: 'Boek nu!'
   subheading: >
-    Het aantal plaatsen is beperkt dus reserveer nu om je plaats veilig te stellen. Wie het eerst komt, het eerst maalt.
+    Reserveer nu om je plaats veilig te stellen (<strong>nog maar 5 plekken beschikbaar</strong>).
     <br>
     Nog vragen?
     <a href="mailto:judith.janssen@gmail.com">Email mij</a> of
     <a href="https://www.facebook.com/events/1560697344196163">laat een reactie achter op Facebook</a>.
   price: '<span class="strike"><span class="text-muted">450&euro;</span></span> 360&euro;'
   discount: '20% vroege vogelkorting tot 22 maart.'
-  call_to_action: 'Boek nu'
+  call_to_action: 'Boek nu (21-25 mei)'
   panels:
     - name: 'Inbegrepen'
       items:

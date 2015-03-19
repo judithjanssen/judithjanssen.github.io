@@ -5,7 +5,7 @@
         <div class="intro-text">
             <div class="intro-heading">{{ data.heading }}</div>
             <div class="intro-lead-in">{{ data.subheading }}</div>
-            <div class="intro-lead-out">21 - 25 of May 2015</div>
+            <div class="intro-lead-out">{{ data.date }}</div>
             {% for button in data.buttons %}
             <a href="{{ button.link }}" class="{{ button.class }}">{{ button.label }}</a>
             {% endfor %}
