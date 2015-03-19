@@ -386,12 +386,22 @@ section h3.section-subheading.less-margin {
 }
 
 #location .location-img { 
-    height: 250px;
+    height: 200px;
     overflow: hidden;
 }
 
 #location .location-img img{ 
-    min-height: 100%;
+    zoom: 2;  //increase if you have very small images
+
+    display: block;
+    margin: auto;
+    overflow: hidden;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: inherit;
 }
 
 #location .portfolio-item {
@@ -443,7 +453,7 @@ section h3.section-subheading.less-margin {
 
 #location .portfolio-item .portfolio-caption {
     margin: 0 auto;
-    padding: 25px;
+    padding: 15px;
     max-width: 400px;
     text-align: center;
     background-color: #fff;
