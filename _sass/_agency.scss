@@ -399,9 +399,11 @@ section h3.section-subheading.less-margin {
 
     height: auto;
     max-height: 100%;
+    min-height: 100%;
 
     width: auto;
     max-width: inherit;
+    min-width: 100%;
 }
 
 #location .portfolio-item {
