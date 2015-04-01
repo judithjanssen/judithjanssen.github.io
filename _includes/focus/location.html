@@ -45,7 +45,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h4>{{ site.data.focus.location[page.lang].surroundings.title }}</h4>
-                    {% for paragraph in site.data.focus.location[page.lang].location.description %}
+                    {% for paragraph in site.data.focus.location[page.lang].surroundings.description %}
                         <p class="{{ paragraph.class }}">{{ paragraph.content }}</p>
                     {% endfor %}
                 </div>
