@@ -10,8 +10,7 @@
             <div class="row">
             {% for image in site.data.focus.location[page.lang].location.images %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="location-img">
-                    <img src="/img/{{ image.url }}" class="img-responsive" alt="{{ image.alt }}">
+                    <div class="location-img" style="background-image: url(/img/{{ image.url }});">
                     </div>
                     <div class="portfolio-caption">
                         <p class="text-muted">{{ image.title }}</p>
@@ -32,8 +31,7 @@
             <div class="row">
             {% for image in site.data.focus.location[page.lang].surroundings.images %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="location-img">
-                    <img src="/img/{{ image.url }}" class="img-responsive" alt="{{ image.alt }}">
+                    <div class="location-img" style="background-image: url(/img/{{ image.url }});">
                     </div>
                     <div class="portfolio-caption">
                         <p class="text-muted">{{ image.title }}</p>
