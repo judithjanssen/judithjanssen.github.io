@@ -1,9 +1,15 @@
-.home-header {
-	overflow: auto;
+.homepage {
+	h1, h2, h3, h4{
+       text-transform: none;
+       font-weight: 400;
+	}
+}
+.homepage h1 {
+	font-size: 1rem;
+	font-weight: 400;
 }
 
 .home-background {
-	position: absolute;
     background-image: url(../img/judith-home.png);
     background-position: top left;
     background-repeat: no-repeat;
@@ -19,10 +25,7 @@
 .introduction {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-align: center;
-	margin-top: 82%;
 	padding: 1em 1em;
-   	min-height: 210px;
-
 }
 
 .introduction .name img {
@@ -34,10 +37,10 @@
    	  padding-bottom: 36%;
    }
    .introduction {
+   	    position: absolute;
+   	    top: 10px; right: 10px;
    	    width: 300px;
-   	    margin-top: 3em;
    		padding: 1em;
-   		float: right;
    }
 }
 
@@ -52,10 +55,27 @@
 
 @media(min-width:992px) {
    .home-background {
-   	  padding-bottom: 40%;
+   	  padding-bottom: 35%;
    }
    .introduction {
-   	  width: 600px;
-   	  padding: 5em 3em 3em 3em;
+   	  width: 450px;
+   	  top: 60px; right: 50px;
    }
+}
+
+@media(min-width:1200px) {
+   .home-background {
+   	  padding-bottom: 35%;
+   }
+   .introduction {
+   	  width: 550px;
+   	  top: 100px; right: 100px;
+   }	
+}
+.wf-loading .introduction {
+	visibility: hidden;
+}
+
+.homepage section {
+	padding-top: 2em;
 }

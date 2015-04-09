@@ -11,28 +11,17 @@
     <script src="{{ "/js/jquery.scrolldepth.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/jquery.scrolldepth.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/slabtext/jquery.slabtext.min.js" | prepend: site.baseurl }}"></script>
-    
     <script>
-        // Function to slabtext the H1 headings
-        function slabTextHeadlines() {
-            $(".introduction").slabText({
-                // Don't slabtext the headers if the viewport is under 380px
-                "viewportBreakpoint":340,
-                "maxFontSize":180
-            });
-        };
-        
-        // Called one second after the onload event for the demo (as I'm hacking the
-        // fontface load event a bit here)
-
-        // Please do not do this in a production environment - you should really use
-        // google WebFont loader events (or something similar) for better control
-        $(window).load(function() {
-            // So, to recap... don't actually do this, it's nasty!
-            setTimeout(slabTextHeadlines, 1000);
+      // Function to slabtext the H1 headings
+      function slabTextHeader() {
+        $(".homepage .introduction").slabText({
+          // Don't slabtext the headers if the viewport is under 380px
+            "viewportBreakpoint":340,
+            "maxFontSize":180
         });
-      </script>
-
+      };
+    </script>
+    
     <script>
       jQuery(function() {
         jQuery.scrollDepth({
