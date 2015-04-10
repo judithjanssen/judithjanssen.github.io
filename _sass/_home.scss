@@ -10,7 +10,7 @@
 }
 
 .home-background {
-    background-image: url(../img/judith-home.png);
+    background-image: url(../img/judith-home-small.jpg);
     background-position: top left;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -46,6 +46,7 @@
 
 @media(min-width:768px) {
    .home-background {
+      background-image: url(../img/judith-home.jpg);
    	  padding-bottom: 40%;
    }
    .introduction {
@@ -65,7 +66,8 @@
 
 @media(min-width:1200px) {
    .home-background {
-   	  padding-bottom: 35%;
+    background-image: url(../img/judith-home-big.jpg);
+    padding-bottom: 35%;
    }
    .introduction {
    	  width: 550px;
