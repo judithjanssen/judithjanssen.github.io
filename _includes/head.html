@@ -1,13 +1,24 @@
 <head>
     <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/slabtext/jquery.slabtext.min.js" | prepend: site.baseurl }}"></script>
     <script>
       
       WebFontConfig = {
         google: {
           families: ['Montserrat:400,700', 'Droid+Serif:400,700,400italic,700italic']
         },
-        active: function() { },
-        inactive: function() {}
+        active: function() {
+          $(".homepage .introduction").slabText({
+              "viewportBreakpoint":300,
+              "maxFontSize":100
+          });
+        },
+        inactive: function() {
+          $(".homepage .introduction").slabText({
+              "viewportBreakpoint":300,
+              "maxFontSize":100
+          });
+        }
       };
 
       (function() {

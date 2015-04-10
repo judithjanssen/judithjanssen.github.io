@@ -72,9 +72,29 @@
    	  top: 100px; right: 100px;
    }	
 }
+
 .wf-loading .introduction {
 	visibility: hidden;
 }
+
+.slabtextinactive span.heading {
+font-size: 20px;
+}
+
+.slabtextinactive span.subheading {
+	font-size: 12px;
+}
+
+@media (min-width:240px) and (max-width: 300px){
+  .slabtextinactive span.heading {
+	font-size: 24px;
+	}
+
+	.slabtextinactive span.subheading {
+		font-size: 14px;
+	}
+}
+
 
 .homepage section {
 	padding-top: 2em;

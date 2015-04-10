@@ -1,5 +1,4 @@
- <!-- jQuery Version 1.11.0 -->
-    
+     
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
@@ -8,25 +7,8 @@
     <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/jquery.scrolldepth.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.scrolldepth.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/slabtext/jquery.slabtext.min.js" | prepend: site.baseurl }}"></script>
-    <script>
-      // Function to slabtext the H1 headings
-      var slabTextHeader = function() {
-        $(".homepage .introduction").slabText({
-          // Don't slabtext the headers if the viewport is under 380px
-            "viewportBreakpoint":340,
-            "maxFontSize":180
-        });
-      };
-
-      $(document).ready(function() {
-        slabTextHeader();
-      });
-
-
-    </script>
     
+    <script src="{{ "/js/jquery.scrolldepth.min.js" | prepend: site.baseurl }}"></script>
     <script>
       jQuery(function() {
         jQuery.scrollDepth({
