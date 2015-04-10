@@ -1,13 +1,13 @@
 <head>
     <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
     <script>
-      var fontsLoaded = false;
+      
       WebFontConfig = {
         google: {
           families: ['Montserrat:400,700', 'Droid+Serif:400,700,400italic,700italic']
         },
-        active: function() { slabTextHeader || fontsLoaded = true; },
-        inactive: function() { slabTextHeader || fontsLoaded = -1; }
+        active: function() { },
+        inactive: function() {}
       };
 
       (function() {
@@ -20,16 +20,7 @@
         s.parentNode.insertBefore(wf, s);
       })();
     </script>
-    <script>
-      // Function to slabtext the H1 headings
-      function slabTextHeader() {
-        $(".homepage .introduction").slabText({
-          // Don't slabtext the headers if the viewport is under 380px
-            "viewportBreakpoint":340,
-            "maxFontSize":180
-        });
-      };
-    </script>
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
