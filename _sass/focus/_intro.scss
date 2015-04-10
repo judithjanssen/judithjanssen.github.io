@@ -2,13 +2,17 @@
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/nature-beach.jpg);
+    background-image: url(../img/nature-beach-small.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+@media (min-width:640) {
+    background-image: url(../img/nature-beach-compressor.jpg);
 }
 
 .focus-header .intro-text {
