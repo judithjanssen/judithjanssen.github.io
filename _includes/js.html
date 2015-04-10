@@ -1,6 +1,5 @@
  <!-- jQuery Version 1.11.0 -->
-    <script src="{{ "/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
-
+    
     <!-- Bootstrap Core JavaScript -->
     <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
 
@@ -13,13 +12,34 @@
     <script src="{{ "/js/slabtext/jquery.slabtext.min.js" | prepend: site.baseurl }}"></script>
     <script>
       // Function to slabtext the H1 headings
-      function slabTextHeader() {
+      var slabTextHeader = function() {
         $(".homepage .introduction").slabText({
           // Don't slabtext the headers if the viewport is under 380px
             "viewportBreakpoint":340,
             "maxFontSize":180
         });
       };
+
+      if (fontsLoaded == true) slabTextHeader();
+    </script>
+    <script>
+      WebFontConfig = {
+        google: {
+          families: ['Montserrat:400,700', 'Droid+Serif:400,700,400italic,700italic']
+        },
+        active: function() {slabTextHeader();},
+        inactive: function() {slabTextHeader();}
+      };
+
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                  '://ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
     </script>
     
     <script>
