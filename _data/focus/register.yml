@@ -6,8 +6,8 @@ en:
     Have any questions?
     <a href="mailto:judith.janssen@gmail.com">Email me</a> or
     <a href="https://www.facebook.com/events/1560697344196163">leave a comment in Facebook</a>.
-  price: '<span class="strike"><span class="text-muted">450&euro;</span></span> 405&euro;'
-  discount: '10% late bird discount until April 15th.<br/>Coming with friends? Contact me for a 20% group discount.'
+  price: '450&euro;'
+  discount: '<strike>10% late bird discount until April 15th</strike>.<br/>Coming with friends? Contact me for a group discount.'
   call_to_action: 'Book now (May 21-25)'
   panels:
     - name: 'Included'
@@ -35,8 +35,8 @@ nl:
     Nog vragen?
     <a href="mailto:judith.janssen@gmail.com">Email mij</a> of
     <a href="https://www.facebook.com/events/1560697344196163">laat een reactie achter op Facebook</a>.
-  price: '<span class="strike"><span class="text-muted">450&euro;</span></span> 405&euro;'
-  discount: '10% vroege vogelkorting tot 15 april.<br/>Kom je samen met vrienden? Neem contact met me op voor een 20% groepskorting.'
+  price: '450&euro;'
+  discount: '<strike>10% vroege vogelkorting tot 15 april</strike>.<br/>Kom je samen met vrienden? Neem contact met me op voor een groepskorting.'
   call_to_action: 'Boek nu (21-25 mei)'
   panels:
     - name: 'Inbegrepen'
