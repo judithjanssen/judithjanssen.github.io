@@ -1,12 +1,18 @@
+{% if page.translations %}
 <div id="lang-switcher" class="btn-group dropup">
   <button type="button" class="btn btn dropdown-toggle" data-toggle="dropdown">
     <span class="lang-sm" lang="{{ page.lang }}"></span> <span class="caret"></span>
   </button>
+  
   <ul class="dropdown-menu" role="menu">
-    {% if page.lang == 'en' %}
-    <li><a href="/nl/focus"><span class="lang-sm" lang="nl"></span></a></li>
-	{% else %}
-    <li><a href="/focus"><span class="lang-sm" lang="en"></span></a></li>
-	{% endif %}
+    <!--<li>
+      <a href="{{ page.url }}"><span class="lang-sm" lang="{{ page.lang }}"></span></a>
+    </li>-->
+    {% for translation in page.translations %}
+    <li>
+      <a href="{{ translation[1]}}"><span class="lang-sm" lang="{{ translation[0]}}"></span></a>
+    </li>
+    {% endfor %}
   </ul>
 </div>
+{% endif %}
