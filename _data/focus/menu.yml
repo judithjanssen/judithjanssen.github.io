@@ -30,3 +30,19 @@ nl:
   - label: Reserveren
     id: register  
     class: page-scroll btn btn-xl
+es:
+  - label: Descripción
+    id: description
+    class: page-scroll
+  - label: El lugar
+    id: location
+    class: page-scroll
+  - label: Horario
+    id: schedule    
+    class: page-scroll
+  - label: Testimonios
+    id: testimonials
+    class: page-scroll
+  - label: Regístrate
+    id: register
+    class: page-scroll btn btn-xl

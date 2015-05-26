@@ -33,7 +33,7 @@ en:
       title: 'Dinner'
       body: 'We will then enjoy dinner together and the evening is yours to enjoy.'
       class:
-  timeline-end: 'Join me<br>on this<br>retreat!'
+    - header: 'Join me<br>on this<br>retreat!'
 nl:
   heading: Programma
   subheading: Hieronder vind je het dagschema.
@@ -69,4 +69,77 @@ nl:
       title: 'Avondeten'
       body: 'We zullen dan van een gezamenlijk diner genieten waarna de avond voor jezelf is.'
       class:
-  timeline-end: 'Geef<br>jezelf<br>een oppepper!'
+    - header: 'Geef<br>jezelf<br>een oppepper!'
+es:
+  heading: Horario
+  subheading: Aquí tienes el horario del fin de semana.
+  timeline:
+    - header: '<br>Viernes'
+    - image: '/img/about/piscina.jpg'
+      time: '17:00'
+      title: 'Recepción'
+      body: 'Nos instalaremos en las habitaciones y podemos empezar a disfrutar del lugar.'
+      class:
+    - image: '/img/about/judith-yoga-2.jpg'
+      time: '19:00'
+      title: 'Sesión de introducción'
+      body: 'Presentaciones y una sesión de yoga y movimiento para desconectar de la semana.'
+      class: 'timeline-inverted'
+    - image: '/img/about/dinner.jpg'
+      time: '20:30'
+      title: 'Cena y descanso'
+      body: 'Cenaremos juntos y tendremos el resto de la noche para relajarnos, charlar y descansar.'
+      class: 
+    - header: '<br>Sábado'
+    - image: '/img/about/yoga.jpg'
+      time: '8:00'
+      title: 'Sesión de despertar'
+      body: 'Una sesión de estiramientos y movimiento consciente para empezar bien el día.'
+      class: 
+    - image: '/img/about/desayuno.jpg'
+      time: '9:00'
+      title: 'Desayuno y tiempo libre'
+      body: 'Disfrutaremos juntos de la mañana con un buen desayuno y mejor compañía. Masaje o curso de cocina opcional.'
+      class: 'timeline-inverted'
+    - image: /img/about/yoga-dinamico.JPG
+      time: '12:00'
+      title: 'Sesión energética'
+      body: 'Antes de comer haremos una sesión de yoga dinámico para aumentar la energía.'
+      class:
+    - image: '/img/about/food.jpg'
+      time: '14:00 PM'
+      title: 'Comida y tiempo libre'
+      body: 'Deliciosa comida y tiempo para una siesta, un paseo, un masaje, un baño, ...'
+      class: 'timeline-inverted'
+    - image: '/img/about/relax.jpg'
+      time: '19:00 PM'
+      title: 'Sesión de relajación'
+      body: 'Al atardecer nos juntamos de nuevo para hacer una práctica restaurativa y de relajación.'
+      class: 
+    - image: '/img/about/dinner.jpg'
+      time: '20:30 PM'
+      title: 'Cena y descanso'
+      body: 'Cenaremos juntos y tendremos el resto de la noche para relajarnos, charlar y descansar.'
+      class: 'timeline-inverted'
+    - header: '<br>Domingo'
+    - image: '/img/about/yoga.jpg'
+      time: '8:00'
+      title: 'Sesión de despertar'
+      body: 'Esta segunda sesión de despertar te sentará tan bien que querrás hacerla cada día.'
+      class: 
+    - image: '/img/about/desayuno.jpg'
+      time: '9:00'
+      title: 'Desayuno y tiempo libre'
+      body: 'Cargamos pilas con el desayuno y seguiremos disfrutando de la piscina, los masajes y el relax del lugar.'
+      class: 'timeline-inverted'
+    - image: /img/about/yoga-dinamico.JPG
+      time: '12:00'
+      title: 'Sesión energética'
+      body: 'Una última sesión de yoga dinámico que construye sobre la práctica de los días anteriores.'
+      class: 
+    - image: '/img/about/food.jpg'
+      time: '14:00 PM'
+      title: 'Comida y cierre'
+      body: 'Terminamos el retiro con una deliciosa comida para llevarnos un buen sabor de boca.'
+      class: 'timeline-inverted'
+    - header: '<br>¿Te apuntas?'

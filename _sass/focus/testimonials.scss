@@ -1,0 +1,21 @@
+.testimonial {
+	padding: 1em;
+	blockquote {
+		@include text-muted();
+		font-style: italic;
+		font-weight: 400;
+		font-size: 1em;
+		line-height: 2;
+	}
+	h4 {
+		text-transform: none;
+		float: right;
+	}
+	img {
+		float: right;
+		display: inline-block;
+		width: 50px;
+		vertical-align: middle;
+		margin: 0 1em;
+	}
+}
