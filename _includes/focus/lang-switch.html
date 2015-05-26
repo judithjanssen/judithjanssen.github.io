@@ -5,9 +5,6 @@
   </button>
   
   <ul class="dropdown-menu" role="menu">
-    <!--<li>
-      <a href="{{ page.url }}"><span class="lang-sm" lang="{{ page.lang }}"></span></a>
-    </li>-->
     {% for translation in page.translations %}
     <li>
       <a href="{{ translation[1]}}"><span class="lang-sm" lang="{{ translation[0]}}"></span></a>
