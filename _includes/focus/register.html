@@ -15,10 +15,10 @@
                 </div>
                 <p class="large text-muted">{{ data.discount }}</p>
                 <form action="https://stripe-checkout.herokuapp.com/" method="POST" class="text-center">
-                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="pk_live_xXsT6VFJxlKIp2xEMHowLL64" data-image="/img/logo-judithjanssen.png" data-name="Focus! retreat booking" data-description="Secure your place. Only 5 spots left." data-amount="45000" data-currency="EUR" data-label="{{ data.call_to_action }}" data-allow-remember-me="false">
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button" data-key="pk_live_xXsT6VFJxlKIp2xEMHowLL64" data-image="/img/logo-judithjanssen.png" data-name="{{ data.stripe-name }}" data-description="{{ data.stripe-description }}" data-amount="{{ data.stripe-value }}" data-currency="EUR" data-label="{{ data.call_to_action }}" data-allow-remember-me="false">
                     </script>
-                    <input name="amount" value="45000" type="hidden">
-                    <input name="description" value="Booking for Focus! retreat" type="hidden">
+                    <input name="amount" value="{{ data.stripe-value }}" type="hidden">
+                    <input name="description" value="data.stripe-name" type="hidden">
                 </form>
                 <br>
             </div>

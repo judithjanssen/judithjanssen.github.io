@@ -1,7 +1,7 @@
 en:
   heading: 'focus'
   subheading: '4-day yoga retreat by the mediterranean sea'
-  date: '21 - 25 of May 2015 (only 5 spots available)'
+  date: '1 - 5 of October 2015'
   buttons:
     - label: 'Zoom in'
       link: '#description'
@@ -9,8 +9,16 @@ en:
 nl:
   heading: 'focus'
   subheading: '4-daagse yogavakantie aan de Middellandse zee'
-  date: '21 - 25 Mei 2015 (nog maar 5 plekken beschikbaar)'
+  date: '1 - 5 October 2015'
   buttons:
     - label: 'Lees meer'
+      link: '#description'
+      class: 'page-scroll btn btn-xl'
+es:
+  heading: 'desconecta'
+  subheading: 'Fin de semana de Yoga y Relax en la Marina Alta'
+  date: '26 - 28 de Junio del 2015'
+  buttons:
+    - label: 'Más información'
       link: '#description'
       class: 'page-scroll btn btn-xl'

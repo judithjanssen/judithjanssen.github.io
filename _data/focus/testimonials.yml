@@ -1,0 +1,7 @@
+es:
+  heading: Testimonios
+  subheading: Aquí tienes algunas experiencias de retiros anteriores.
+  testimonials:
+    - name: Suzanne Hoyos
+      text: 'Fue una experiencia muy bonita para mi y ahora, de vuelta a mi realidad, siento una gran calma interior. Todos necesitaríamos hacer algo así de vez en cuando para desconectar del día a día.'
+      img: '/img/testimonials/suzanne-hoyos.jpg'

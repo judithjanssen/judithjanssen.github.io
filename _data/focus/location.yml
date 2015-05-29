@@ -108,3 +108,56 @@ nl:
       - url: 'botanico/cala-ambolo.jpg'
         title: 'Cala Ambolo (Jávea)'
         alt: 'Prachtige baai vlakbij Jávea'
+es:
+  heading: El lugar
+  subheading: 'El retiro tiene lugar en El Botánico de Sagra, un pequeño mundo mágico lleno de naturaleza y color.'
+  location: 
+    title: 'El Botánico de Sagra'
+    description: 
+      - class: 'text-muted large'
+        content: '17.000 m² de naturaleza exuberante, frutales exóticos, flores, olor a jazmín y azahar y estancias llenas de color, perfectamente integradas en el entorno y cuidadas hasta el último detalle.'
+      - class: 'text-muted large'
+        content: 'El Botánico está en Sagra, un pequeño pueblo de la Marina Alta a los pies de la montaña, rodeado de naranjos, almendros, cerezos y olivos.'
+    images:
+      - url:   botanico/piscina.jpg
+        title: Piscina
+        alt:   Piscina de agua de manantial
+      - url:   botanico/sala-yoga.jpg
+        title: Sala de yoga
+        alt:   Espacio para las clases de yoga junto a la piscina
+      - url:   botanico/dining-room.jpg
+        title: Cocina y salón comedor
+        alt:   Cocina y salón comedor
+      - url:   botanico/malva1.jpg
+        title: Casa Malva
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/bodega2.jpg
+        title: Bodega
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul4.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul3.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul2.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/roja.jpg
+        title: Casa roja
+        alt:   Exotic living room in the Casa Roja
+  surroundings:
+    title: 'Alrededores'
+    description: 
+      - class: 'text-muted large'
+        content: 'Sagra está situado en la Marina Alta, al norte de la provincia de Alicante, a una hora de Valencia y de Alicante. Se trata de una comarca con una gran variedad de paisajes que combina los pueblos de montaña con vistas al mar y la zona de costa con pequeñas calas y extensas playas de arena.'
+    images:
+      - url: 'botanico/deniaplaya.jpg'
+        title: 'Playa de les Deveses (Denia)'
+        alt: 'Natural beach with views at the Montgó mountain'
+      - url: 'botanico/vall_de_laguar.jpg'
+        title: 'Vall de Laguar'
+        alt: 'Breathtaking views from Vall de Laguar'
+      - url: 'botanico/cala-ambolo.jpg'
+        title: 'Cala Ambolo (Jávea)'
+        alt: 'Beautiful cala Ambolo near Jávea'
