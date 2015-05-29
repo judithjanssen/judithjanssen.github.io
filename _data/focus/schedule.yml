@@ -78,7 +78,7 @@ es:
     - image: '/img/about/piscina.jpg'
       time: '17:00'
       title: 'Recepción'
-      body: 'Nos instalaremos en las habitaciones y podemos empezar a disfrutar del lugar.'
+      body: 'Nos instalaremos en las habitaciones y podremos empezar a disfrutar del lugar.'
       class:
     - image: '/img/about/judith-yoga-2.jpg'
       time: '19:00'
@@ -99,7 +99,7 @@ es:
     - image: '/img/about/desayuno.jpg'
       time: '9:00'
       title: 'Desayuno y tiempo libre'
-      body: 'Disfrutaremos juntos de la mañana con un buen desayuno y mejor compañía. Masaje o curso de cocina opcional.'
+      body: 'Disfrutaremos de la mañana con un buen desayuno y tiempo libre para un baño, un tratamiento o, simplemente, descansar.'
       class: 'timeline-inverted'
     - image: /img/about/yoga-dinamico.JPG
       time: '12:00'
@@ -114,7 +114,7 @@ es:
     - image: '/img/about/relax.jpg'
       time: '19:00 PM'
       title: 'Sesión de relajación'
-      body: 'Al atardecer nos juntamos de nuevo para hacer una práctica restaurativa y de relajación.'
+      body: 'Al atardecer nos juntamos de nuevo para hacer una práctica relajante.'
       class: 
     - image: '/img/about/dinner.jpg'
       time: '20:30 PM'

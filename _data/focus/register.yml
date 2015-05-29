@@ -1,14 +1,16 @@
 en:
   heading: 'Register now!'
   subheading: >
-    Book now to secure your place (<strong>only 5 spots left</strong>).
+    Book now to secure your place.
     <br>
     Have any questions?
-    <a href="mailto:judith.janssen@gmail.com">Email me</a> or
-    <a href="https://www.facebook.com/events/1560697344196163">leave a comment in Facebook</a>.
-  price: '450&euro;'
-  discount: '<strike>10% late bird discount until April 15th</strike>.<br/>Coming with friends? Contact me for a group discount.'
-  call_to_action: 'Book now (May 21-25)'
+    <a href="mailto:judith.janssen@gmail.com">Email me</a> or call me at +34 622 875 478.
+  price: '<span class="strike">450&euro;</span> 396€'
+  discount: '<strong>12% early bird discount</strong> until September 1st.<br/>'
+  call_to_action: 'Book now (Oct 1-5)'
+  stripe-name: 'Focus! retreat booking'
+  stripe-value: '39600'
+  stripe-description: 'Secure your place. Seats are limited.'
   panels:
     - name: 'Included'
       items:
@@ -24,8 +26,8 @@ en:
         - 'Optional activities such as massage treatments, bike rental, hiking guide (consult prices).'
     - name: 'Cancelation Policy'
       items:
-        - 'Cancelation before April 1st: 100% refund.'
-        - 'Cancelation after April 1st (included): 5€ per day thereafter.'
+        - 'Cancelation before September 1st: 100% refund.'
+        - 'Cancelation fee after September 1st (included): 5€ per day thereafter.'
         - 'You can cancel by email or phone.'
 nl:
   heading: 'Boek nu!'
@@ -38,6 +40,9 @@ nl:
   price: '450&euro;'
   discount: '<strike>10% vroege vogelkorting tot 15 april</strike>.<br/>Kom je samen met vrienden? Neem contact met me op voor een groepskorting.'
   call_to_action: 'Boek nu (21-25 mei)'
+  stripe-name: 'Focus! retreat booking'
+  stripe-value: '39600'
+  stripe-description: 'Secure your place. Seats are limited.'
   panels:
     - name: 'Inbegrepen'
       items:
@@ -56,3 +61,34 @@ nl:
         - 'Afmelding voor 1 april: 100% terugbetaling.'
         - 'Afmelding na 1 april (inbegrepen): kosten 5 € per dag.'
         - 'Je kunt via e-mail of telefonisch annuleren.'
+es:
+  heading: 'Apúntate y desconecta'
+  subheading: >
+    Reserva ahora para venir a este retiro. Las plazas son limitadas.
+    <br>
+    ¿Tienes alguna pregunta?
+    <a href="mailto:judith.janssen@gmail.com">Envíame un email</a> o llámame al 622 875 478.
+  price: '<span class="strike">250&euro;</span> 225&euro;'
+  discount: '10% de descuento hasta el 8 de Junio</strike>.'
+  call_to_action: 'Reserva tu plaza (26-28 Junio)'
+  stripe-name: 'Reserva para el retiro desconecta'
+  stripe-value: '22500'
+  stripe-description: 'Máximo 12 asistentes. Resrva tu plaza.'
+  panels:
+    - name: 'Incluido'
+      items:
+        - 'Sesiones de yoga y el uso del material necesario: esterilla, soportes, etc.'
+        - 'Desayuno, comida, cena, y variedad de fruta y frutos secos. Dieta vegetariana.'
+        - 'Estancia en habitaciones dobles compartidas con baño.'
+        - 'Uso de las instalaciones: jardines, piscina, WiFi, concina y estancias colectivas.'
+    - name: 'No incluido'
+      items:
+        - 'Desplazamiento hasta el retiro.'
+        - 'Opcional: Habitación privada con un recargo de  35€ por noche.'
+        - 'Opcional: masajes, tratamientos estéticos, trecking, kayak, etc. (consultar precios).'
+    - name: 'Política de cancelación'
+      items:
+        - 'Cancelación antes del 8 de Junio: reembolso del 100%.'
+        - 'Cancelación desde el 8 de Junio hasta el 21 de Junio: reembolso del 50%.'
+        - 'Cancelación desde el 22 de Junio hasta el retiro: reembolso del 25%.'
+        - 'Puedes cancelar en cualquier momento por email o teléfono.'

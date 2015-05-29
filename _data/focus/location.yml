@@ -110,7 +110,7 @@ nl:
         alt: 'Prachtige baai vlakbij Jávea'
 es:
   heading: El lugar
-  subheading: 'el retiro tiene lugar en El Botánico de Sagra, un pequeño mundo mágico lleno de naturaleza y color'
+  subheading: 'El retiro tiene lugar en El Botánico de Sagra, un pequeño mundo mágico lleno de naturaleza y color.'
   location: 
     title: 'El Botánico de Sagra'
     description: 
@@ -150,7 +150,7 @@ es:
     title: 'Alrededores'
     description: 
       - class: 'text-muted large'
-        content: 'Sagra está situado en la Marina Alta al norte de la provincia de Alicante, a una hora de Valencia y de Alicante. Se trata de una comarca con una gran variedad de paisajes que combina los pueblos de montaña con vistas al mar y la zona de costa con pequeñas calas y extensas playas de arena.'
+        content: 'Sagra está situado en la Marina Alta, al norte de la provincia de Alicante, a una hora de Valencia y de Alicante. Se trata de una comarca con una gran variedad de paisajes que combina los pueblos de montaña con vistas al mar y la zona de costa con pequeñas calas y extensas playas de arena.'
     images:
       - url: 'botanico/deniaplaya.jpg'
         title: 'Playa de les Deveses (Denia)'
