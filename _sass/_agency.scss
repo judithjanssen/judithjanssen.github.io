@@ -743,6 +743,10 @@ body {
     font-size: 0.8em;
 }
 
+.price .strike span{
+    color: $secondary-dark;
+}
+
 #lang-switcher {
     z-index: 1000;
     position: fixed;
