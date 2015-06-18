@@ -10,6 +10,7 @@
         </div>
         <div class="row">
             <div class="text-center center-block">
+            {% if data.enable_payment  %}
                 <div class="price">
                     {{ data.price }}
                 </div>
@@ -21,6 +22,13 @@
                     <input name="description" value="data.stripe-name" type="hidden">
                 </form>
                 <br>
+            {% else %}
+                <div class="large">
+                    {{ data.disabled_text }}
+                </div>
+                <br><br>
+            {% endif %}
+
             </div>
         </div>
         <div class="row">
