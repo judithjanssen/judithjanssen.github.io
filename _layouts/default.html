@@ -5,7 +5,9 @@
 
     <body id="page-top" class="{{ page.class }}">
     
+    {% if page.navbar %}
     {% include header.html %}
+    {% endif %}
     
     {{ content }}
     
