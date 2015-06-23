@@ -1,48 +1,48 @@
 en:
   - label: Description
-    id: description
+    link: '#description'
     class: page-scroll
   - label: Location
-    id: location
+    link: '#location'
     class: page-scroll
   - label: Schedule
-    id: schedule    
+    link: '#schedule'
     class: page-scroll
   - label: About me
-    id: teacher
+    link: '#teacher'
     class: page-scroll
   - label: Register
-    id: register
+    link: '#register'
     class: page-scroll btn btn-xl
 nl:
   - label: Info
-    id: description
+    link: '#description'
     class: page-scroll
   - label: Locatie
-    id: location
+    link: '#location'
     class: page-scroll
   - label: Programma
-    id: schedule    
+    link: '#schedule'
     class: page-scroll
   - label: Over mij
-    id: teacher
+    link: '#teacher'
     class: page-scroll
   - label: Reserveren
-    id: register  
+    link: '#register  '
     class: page-scroll btn btn-xl
 es:
   - label: Descripción
-    id: description
+    link: '#description'
     class: page-scroll
   - label: El lugar
-    id: location
+    link: '#location'
     class: page-scroll
   - label: Horario
-    id: schedule    
+    link: '#schedule'
     class: page-scroll
   - label: Testimonios
-    id: testimonials
+    link: '#testimonials'
     class: page-scroll
   - label: Regístrate
-    id: register
+    link: '#register'
     class: page-scroll btn btn-xl

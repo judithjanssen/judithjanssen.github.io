@@ -9,7 +9,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                {% if page.log %}
                 <a class="logo navbar-brand page-scroll" href="/"><img src="{{ site.logo }}" alt="{{ site.title }}"></a>
+                {% endif %}
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -17,9 +19,9 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    {% for item in site.data.focus.menu[page.lang] %}
+                    {% for item in site.data.[page.section].menu[page.lang] %}
                     <li>
-                        <a class="page-scroll" href="#{{ item.id }}">{{ item.label }}</a>
+                        <a class="page-scroll" href="{{ item.link }}">{{ item.label }}</a>
                     </li>
                     {% endfor %}
                 </ul>

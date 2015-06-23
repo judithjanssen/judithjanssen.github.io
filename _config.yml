@@ -20,7 +20,7 @@ social:
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+permalink: pretty
 
 # Default values
 defaults:
@@ -29,7 +29,10 @@ defaults:
       path: ""
     values:
       layout: "default"
+      navbar: "menu"
       lang: "en"
+      logo: true
+      section: sitewide
   -
     scope:
       path: "es"
