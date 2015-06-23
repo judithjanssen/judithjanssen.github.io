@@ -15,38 +15,24 @@ navbar: false
     </h1>
 </header>
 
-<section id="services">
+<section id="intro">
   <div class="container">
 	<div class="row">
-	        <h3 class="section-heading text-center">Increase your energy and focus</h3>
-            <p class="section-subheading col-lg-10 col-lg-offset-1 text-muted text-center less-margin">I teach my students how to create <strong>strength, balance, and ease in their body and mind</strong> so they can be more productive at work, more present at home, and enjoy every day to its fullest.</p>
-        </div>
-        <div class="row">
-        	<div class="col-md-4">
-        	<h3 class="">Private lessons</h3>
-        		<p class="text-muted">Enjoy personalized yoga sessions, tailored to your needs and schedule, in the comfort of your home or office.</p>
-        	</div>
-        	<div class="col-md-4">
-        	<h3 class="">Workshops &amp; retreats</h3>
-        		<p class="text-muted">I host several body-mind workshops and holiday retreats through out the year. See upcoming dates and locations below.</p>
-        	</div>
-        	<div class="col-md-4">
-        	<h3 class="">Host your own retreat</h3>
-        		<p class="text-muted">I help other yoga teachers and studios to organise retreats in the beautiful and sunny Marina Alta (South East Spain).</p>
-        	</div>
-        </div>
-        <div class="row">
-        	<h3 class="section-subheading col-lg-10 col-lg-offset-1 text-muted text-center less-margin">Interested? Call me at 622&nbsp;875&nbsp;478 or <a href="mailto:judithjanssen@gmail.com">drop&nbsp;me&nbsp;an&nbsp;email.</a></h3> 
-	</div>
+    <h3 class="section-heading text-center">Increase your energy and focus</h3>
+    <p class="section-subheading col-lg-10 col-lg-offset-1 text-muted text-center less-margin">Create strength, balance, and <strong>ease in your body and mind</strong>
+    <br />to be more productive at work, more present at home, and <strong>enjoy every day to its fullest</strong>.
+    </p>
+  </div>
 
   </div>
 </section>
+
 <section id="upcoming" class="bg-light-gray">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-          <h3 class="section-heading text-center">Upcoming retreats</span></h3>
-          <p class="section-subheading col-lg-10 col-lg-offset-1 text-muted text-center less-margin">Would you like to join me in a retreat? The following editions are open for registration.</p>
+          <h3 class="section-heading text-center">Upcoming workshops & retreats</span></h3>
+          <p class="section-subheading col-lg-10 col-lg-offset-1 text-muted text-center">Would you like to join me in a retreat? The following editions are open for registration.</p>
       </div>
     </div>
     <div class="row">
@@ -68,17 +54,52 @@ navbar: false
   </div>
 </section>
 
-<section id="about">
+<section id="services">
   <div class="container">
-	<div class="row">
-	        <h3 class="section-heading text-center">About me</h3>
-	        <div class="col-lg-10 col-lg-offset-1 text-muted large">
-            <p class="section-subheading less-margin">I am a Dutch <strong>training specialist</strong> currently based in the <strong>beautiful Marina Alta</strong> (Alicante, Spain).
-            <br>
-            I host and organize <strong>workshops, lessons and retreats</strong> where I focus on <strong>body awareness, proper breathing, postural alignment and mindfulness</strong>. My teaching is an integration of Hatha yoga with the precision and props of Iyengar yoga, the dynamics of Vinyasa flow and other body movement and expression techniques.
-            </p>
-            </div>
-	</div>
+  <div class="row">
+    <h3 class="section-heading text-center">How can I help you?</h3>
+    <p class="section-subheading col-lg-10 col-lg-offset-1 text-muted text-center">
+      I host and organize <strong>workshops, lessons and retreats</strong> where I focus on
+      <br />
+      <strong>body awareness, proper breathing, postural alignment and mindfulness</strong>.
+    </p>
 
+  </div>
+        <div class="row">
+          <div class="col-md-4">
+          <h3 class="">Private lessons</h3>
+            <p class="text-muted">Enjoy personalized yoga sessions, tailored to your needs and schedule, in the comfort of your home or office.</p>
+          </div>
+          <div class="col-md-4">
+          <h3 class="">Workshops &amp; retreats</h3>
+            <p class="text-muted">I host several body-mind workshops and holiday retreats through out the year. See upcoming dates and locations below.</p>
+          </div>
+          <div class="col-md-4">
+          <h3 class="">Host your own retreat</h3>
+            <p class="text-muted">I help other yoga teachers and studios to organise retreats in the beautiful and sunny Marina Alta (South East Spain).</p>
+          </div>
+        </div>
+        <div class="row">
+          <p class="section-subheading col-lg-10 col-lg-offset-1 text-muted text-center less-margin">Let's work togheter!
+          <br />Call me at 622&nbsp;875&nbsp;478 or <a href="mailto:judithjanssen@gmail.com">drop&nbsp;me&nbsp;an&nbsp;email.</a></p> 
+  </div>
+
+  </div>
+</section>
+
+<section id="posts" class="bg-light-gray">
+  <div class="container">
+  	<div class="row">
+  	  <h3 class="section-heading text-center">Popular blog posts</h3>
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {% include post-list.html %}
+      </div>
+  	</div>
+  </div>
+</section>
+
+<section id="newsletter">
+  <div class="container">
+        {% include mailchimp-form.html heading="Don't miss a thing"   subheading="I will keep you up-to-date with a monthly-ish email with articles, videos and events. No spam, I promise."  field="Email" button="Keep me up-to-date" %}
   </div>
 </section>

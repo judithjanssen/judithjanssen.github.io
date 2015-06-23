@@ -42,7 +42,7 @@
       false,
       { 
         callback: function() { $('#mail-modal').modal('show');},
-        aggressive: false
+        aggressive: true
       }
     );
 
@@ -50,7 +50,11 @@
       $('#mail-modal').modal('hide');
     });
 
-    $('#mail-modal .modal-footer').on('click', function() {
+    $('#mail-modal .modal-footer a').on('click', function() {
+      $('#mail-modal').modal('hide');
+    });
+
+    $('#mail-modal .modal-dialog .close').on('click', function() {
       $('#mail-modal').modal('hide');
     });
 
@@ -58,4 +62,5 @@
       e.preventDefault();
       e.stopPropagation();
     });
+
 </script>
