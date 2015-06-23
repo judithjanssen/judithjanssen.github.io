@@ -21,7 +21,7 @@
                     </li>
                     {% for item in site.data.[page.section].menu[page.lang] %}
                     <li>
-                        <a class="page-scroll" href="{{ item.link }}">{{ item.label }}</a>
+                        <a class="{{ item.class }}" href="{{ item.link }}">{{ item.label }}</a>
                     </li>
                     {% endfor %}
                 </ul>
