@@ -20,4 +20,23 @@ social:
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:title/
+
+# Default values
+defaults:
+  -
+    scope: 
+      path: ""
+    values:
+      layout: "default"
+      lang: "en"
+  -
+    scope:
+      path: "es"
+    values:
+      lang: "es"
+  -
+    scope:
+      path: "nl"
+    values:
+      lang: "nl"
