@@ -29,8 +29,8 @@ defaults:
       path: ""
     values:
       layout: "default"
-      navbar: "menu"
       lang: "en"
+      navbar: true
       logo: true
       section: sitewide
   -
