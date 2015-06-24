@@ -71,12 +71,12 @@ es:
     ¿Tienes alguna pregunta?
     <a href="mailto:judith.janssen@gmail.com">Envíame un email</a> o llámame al 622 875 478.
   price: '<span class="strike"><span>250&euro;</span></span> 225&euro;'
-  discount: '10% de descuento hasta el 15 de Junio</strike>.'
-  enable_payment: false
+  discount: '10% de descuento hasta el 15 de Agosto</strike>.'
+  enable_payment: true
   disabled: 
     heading: 'No te pierdas el próximo retiro'
     subheading: 'Apúntate para recibir información sobre próximos retiros, cursos y articulos'
-  call_to_action: 'Reserva tu plaza (26-28 Junio)'
+  call_to_action: 'Reserva tu plaza (11-13 Septiembre)'
   stripe-name: 'Reserva para el retiro desconecta'
   stripe-value: '22500'
   stripe-description: 'Máximo 12 asistentes. Resrva tu plaza.'
