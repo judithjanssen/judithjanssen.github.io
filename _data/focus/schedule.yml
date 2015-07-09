@@ -11,10 +11,10 @@ en:
     - image: '/img/about/yoga.jpg'
       time: '8:00 AM'
       title: 'Day Opening'
-      body: 'We will start the day with breathwork and a vigorous, dynamic yoga session.'
+      body: 'We will start the day with breathwork and a alignment-based flow yoga session.'
       class:
     - image: '/img/about/food.jpg'
-      time: '10:30 AM'
+      time: '10:30 AM'  
       title: 'Brunch'
       body: 'At 10:30 AM you can fuel your body with a delicious and healthy brunch.'
       class: 'timeline-inverted'
