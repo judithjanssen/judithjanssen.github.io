@@ -19,6 +19,12 @@
 		@media only screen and (min-width: 768px) {
 			padding: 150px 0;
 		}
+		h1,
+		h2,
+		h3 {
+			text-transform: lowercase;
+			font-weight: 400;
+		}
 	}
 	.site-heading,
 	.page-heading {

@@ -1,15 +1,15 @@
 ---
 layout: home
-logo: false
+logo: true
 ---
-<header class="intro-header" style="background-image: linear-gradient(      rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/typewriter.jpg')">
+<header class="intro-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/typewriter.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1>Blog</h1>
+                    <h1>Thoughts</h1>
                     <hr class="small">
-                    <p class="subheading">thoughts on yoga, movement and wellbeing</p>
+                    <p class="subheading">on yoga, movement and wellbeing</p>
                 </div>
             </div>
         </div>
@@ -22,8 +22,7 @@ logo: false
 
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
-    <div class="post-preview">
-      <a href="{{ post.url | prepend: site.baseurl }}">
+    <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
           <h2 class="post-title">
               {{ post.title }}
           </h2>
@@ -32,9 +31,8 @@ logo: false
               {{ post.subtitle }}
           </h3>
           {% endif %}
-      </a>
       <p class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
-    </div>
+    </a>
     <hr />
     {% endfor %}
 

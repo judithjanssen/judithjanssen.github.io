@@ -33,14 +33,8 @@ a.active {
 }
 
 a {
-    color: $primary;
-}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-    color: $secondary-dark;
+    color: $secondary;
+    text-decoration: underline;
 }
 
 h1,
@@ -49,9 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
     line-height: 1.3;
 }
 
@@ -68,6 +60,8 @@ h6 {
 }
 
 .btn {
+    border-color: $secondary;
+    text-decoration: none;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -86,7 +80,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: $primary;
+    border-color: $secondary;
     color: #fff;
     background-color: $secondary;
 }
