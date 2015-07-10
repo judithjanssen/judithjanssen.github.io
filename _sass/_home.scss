@@ -22,6 +22,19 @@
     z-index: -10;
 }
 
+.homepage .logo {
+  display: none;
+}
+
+@media (min-width: 768px){
+  .homepage .navbar-default {
+    background-color: transparent;
+    .nav li a {
+      color: $text-color;
+    }
+  }
+}
+
 .introduction {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	text-align: center;
@@ -95,13 +108,38 @@ font-size: 20px;
   .slabtextinactive span.heading {
 	font-size: 24px;
 	}
-
 	.slabtextinactive span.subheading {
 		font-size: 14px;
 	}
 }
 
-
 .homepage section {
 	padding-top: 2em;
+}
+
+.well {
+  background-color: white;
+}
+
+
+.headroom {
+    border-bottom: 1px solid transparent;
+    transition: transform 200ms linear,
+                background-color 200ms linear,
+                border-bottom 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+    &.headroom--not-top {
+      &.navbar {
+        background-color: white;
+        border-bottom: 1px solid $gray-lighter;
+      }
+      .logo {
+        display: block;
+      }
+    }
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
 }

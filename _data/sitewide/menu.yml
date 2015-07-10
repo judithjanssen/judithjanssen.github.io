@@ -1,7 +1,10 @@
 en:
   - label: Thoughts
     link: /blog/
-    class: page-scroll
+  - label: Focus retreat
+    link: /focus/
+  - label: About
+    link: /about/
 nl:
   - label: Info
     link: /nl/blog/

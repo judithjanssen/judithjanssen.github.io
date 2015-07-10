@@ -1,0 +1,27 @@
+<script src="//cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
+
+    <script>
+        var navbar = document.querySelector("nav.navbar");
+        
+        
+        var options = {
+            // vertical offset in px before element is first unpinned
+            offset : 150,
+            tolerance: {
+                up: 0,
+                down: 5
+            },
+            // callback when pinned, `this` is headroom object
+            onPin : function() {},
+            // callback when unpinned, `this` is headroom object
+            onUnpin : function() {},
+                // callback when above offset, `this` is headroom object
+            onTop : function() {},
+            // callback when below offset, `this` is headroom object
+            onNotTop : function() {}
+        }
+        
+        var headroom  = new Headroom(navbar, options);
+        // initialise
+        headroom.init();
+    </script>
