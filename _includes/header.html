@@ -19,9 +19,14 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+
                     {% for item in site.data.[page.section].menu[page.lang] %}
                     <li>
+                        {% if item.link == page.dir %}
+                        <a class="active {{ item.class }}" href="{{ item.link }}">{{ item.label }}</a>
+                        {% else %}
                         <a class="{{ item.class }}" href="{{ item.link }}">{{ item.label }}</a>
+                        {% endif %}
                     </li>
                     {% endfor %}
                 </ul>
@@ -30,4 +35,3 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-

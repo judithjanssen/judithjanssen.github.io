@@ -1,12 +1,12 @@
 en:
   - label: Thoughts
-    link: /blog
+    link: /blog/
     class: page-scroll
 nl:
   - label: Info
-    link: /nl/blog
+    link: /nl/blog/
     class: page-scroll
 es:
   - label: Descripción
-    link: /es/blog
+    link: /es/blog/
     class: page-scroll
