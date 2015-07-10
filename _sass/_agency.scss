@@ -7,21 +7,10 @@
 body {
     overflow-x: hidden;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    color: $secondary-dark;
 }
 
 .text-muted {
      @include text-muted();
-}
-
-.text-primary {
-    color: $primary;
-}
-
-p {
-    font-size: 16px;
-    line-height: 2;
 }
 
 a,
@@ -62,7 +51,6 @@ h6 {
 .btn {
     border-color: $secondary;
     text-decoration: none;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -71,7 +59,6 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: $secondary-dark;
     background-color: $primary;
 }
 
@@ -275,10 +262,6 @@ fieldset[disabled] .btn-xl.active {
 .logo img{
     width: 160px;
     display: inline-block;
-}
-
-section {
-    padding: 60px 0;
 }
 
 .extra-margin {

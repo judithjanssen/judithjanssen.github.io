@@ -4,10 +4,9 @@
 	&:hover,
 	&:focus {
 	    text-decoration: none;
-		color: $text-color;
+		color: $secondary-dark;
     }
 		.post-title {
-			font-size: 30px;
 			margin-top: 30px;
 			margin-bottom: 10px;
 		}
@@ -21,15 +20,7 @@
 		    text-decoration: none;
 	    }
 		color: $gray-light;
-		font-size: 18px;
 		font-style: italic;
 		margin-top: 0;
-	}
-	@media only screen and (min-width: 768px) {
-		a {
-		    .post-title {
-				font-size: 36px;
-			}
-		}
 	}
 }
