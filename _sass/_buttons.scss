@@ -1,0 +1,26 @@
+.btn {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.btn-default.outline {
+  @include button-outline($btn-default-bg);
+}
+.btn-primary.outline {
+  @include button-outline($btn-primary-bg);
+}
+// Success appears as green
+.btn-success.outline {
+  @include button-outline($btn-success-bg);
+}
+// Info appears as blue-green
+.btn-info.outline {
+  @include button-outline($btn-info-bg);
+}
+// Warning appears as orange
+.btn-warning.outline {
+  @include button-outline($btn-warning-bg);
+}
+// Danger and error appear as red
+.btn-danger.outline {
+  @include button-outline($btn-danger-bg);
+}

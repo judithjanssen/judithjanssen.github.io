@@ -5,7 +5,7 @@ en:
   buttons:
     - label: 'Zoom in'
       link: '#description'
-      class: 'page-scroll btn btn-xl'
+      class: 'page-scroll btn btn-primary outline btn-lg'
 nl:
   heading: 'focus'
   subheading: '4-daagse yogavakantie aan de Middellandse zee'
@@ -13,7 +13,7 @@ nl:
   buttons:
     - label: 'Lees meer'
       link: '#description'
-      class: 'page-scroll btn btn-xl'
+      class: 'page-scroll  btn btn-primary outline btn-lg'
 es:
   heading: 'desconecta'
   subheading: 'Fin de semana de Yoga y Relax en la Marina Alta'
@@ -21,4 +21,4 @@ es:
   buttons:
     - label: 'Más información'
       link: '#description'
-      class: 'page-scroll btn btn-xl'
+      class: 'page-scroll  btn btn-primary outline btn-lg'
