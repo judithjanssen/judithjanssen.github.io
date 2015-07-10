@@ -1,24 +1,8 @@
 ---
-layout: home
-logo: true
+layout: blog
+title: Thoughts
+subtitle: on yoga, movement and wellbeing
 ---
-<header class="intro-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/typewriter.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>Thoughts</h1>
-                    <hr class="small">
-                    <p class="subheading">on yoga, movement and wellbeing</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<div class="container">
-<div class="row">
-  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
@@ -37,9 +21,3 @@ logo: true
     {% endfor %}
 
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-    
-  </div>
-</div>
-</div>
-
-
