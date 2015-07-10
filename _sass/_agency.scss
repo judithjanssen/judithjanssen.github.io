@@ -6,7 +6,6 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -21,13 +20,15 @@ a.active {
     outline: 0;
 }
 
+p {
+    font-family: $font-family-serif;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.3;
 }
 
@@ -473,7 +474,6 @@ footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
 }
 
 footer ul.quicklinks {
@@ -481,7 +481,6 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
 }
 
 ul.social-buttons {
@@ -656,4 +655,45 @@ body {
 
 .fa {
     line-height: inherit;
+}
+
+/* Equal height 
+ * http://www.bootply.com/7UhIWMK808#
+ */
+
+.row-flex, .row-flex > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+
+.row-flex-wrap {
+    -webkit-flex-flow: row wrap;
+    align-content: flex-start;
+    flex:0;
+}
+
+.row-flex > div[class*='col-'], .container-flex > div[class*='col-'] {
+     margin:-.2px; /* hack adjust for wrapping */
+}
+
+.container-flex > div[class*='col-'] div,.row-flex > div[class*='col-'] div {
+    width:100%;
+}
+
+
+.flex-col {
+    display: flex;
+    display: -webkit-flex;
+    flex: 1 100%;
+    flex-flow: column nowrap;
+}
+
+.flex-grow {
+    display: flex;
+    -webkit-flex: 2;
+    flex: 2;
 }

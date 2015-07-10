@@ -4,20 +4,20 @@ title: Thoughts
 subtitle: on yoga, movement and wellbeing
 ---
 
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
-    <a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
-          <h2 class="post-title">
-              {{ post.title }}
-          </h2>
-          {% if post.subtitle %}
-          <h3 class="post-subtitle">
-              {{ post.subtitle }}
-          </h3>
-          {% endif %}
-      <p class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
-    </a>
-    <hr />
-    {% endfor %}
+{% assign posts=site.posts | where:'lang', page.lang %}
+{% for post in posts %}
+<a class="post-preview" href="{{ post.url | prepend: site.baseurl }}">
+      <h2 class="post-title">
+          {{ post.title }}
+      </h2>
+      {% if post.subtitle %}
+      <h3 class="post-subtitle">
+          {{ post.subtitle }}
+      </h3>
+      {% endif %}
+  <p class="post-meta">Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
+</a>
+<hr />
+{% endfor %}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
