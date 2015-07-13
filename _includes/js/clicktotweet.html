@@ -1,0 +1,29 @@
+<style type="text/css">
+	blockquote p a.btn:before {
+	    content:"\f099";
+	    font-family: FontAwesome;
+	    margin: 5px;
+	    display: inline-block;
+	    text-decoration: none;
+	}
+	blockquote p a.btn:hover {
+		text-decoration: underline;
+	}
+</style>
+<script type="text/javascript">
+var url = window.location.protocol + "//" + window.location.host + window.location.pathname;
+var twshare = "https://twitter.com/share?url=" + encodeURIComponent(url);
+ 
+$("blockquote p").each(function () {
+    var $link = $("<a>"),
+        linkText = "Click to tweet",
+        url = twshare + "&text=%22" + $(this).text() + "%22 by @judithjanssen_";
+    $link.attr("href", url);
+    $link.attr("title", "Tweet this");
+    $link.attr("target", "_blank");
+    $link.attr("class", "btn pull-right");
+    $link.text(linkText);
+    $link.addClass('tweet-this');
+    $(this).append($link);
+});
+</script>

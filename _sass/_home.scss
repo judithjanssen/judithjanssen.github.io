@@ -121,25 +121,3 @@ font-size: 20px;
   background-color: white;
 }
 
-
-.headroom {
-    border-bottom: 1px solid transparent;
-    transition: transform 200ms linear,
-                background-color 200ms linear,
-                border-bottom 200ms linear;
-}
-.headroom--pinned {
-    transform: translateY(0%);
-    &.headroom--not-top {
-      &.navbar {
-        background-color: white;
-        border-bottom: 1px solid $gray-lighter;
-      }
-      .logo {
-        display: block;
-      }
-    }
-}
-.headroom--unpinned {
-    transform: translateY(-100%);
-}
