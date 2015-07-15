@@ -49,3 +49,4 @@ defaults:
       type: posts
     values:
       layout: blog-post
+
