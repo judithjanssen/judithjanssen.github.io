@@ -1,29 +1,48 @@
 <style type="text/css">
-	blockquote p a.btn:before {
-	    content:"\f099";
-	    font-family: FontAwesome;
+    .click-to-share.btn:hover {
+		color: inherit;
+    }
+	.click-to-share a:before {
 	    margin: 5px;
 	    display: inline-block;
 	    text-decoration: none;
+	    font-size: 1.4em;
 	}
-	blockquote p a.btn:hover {
-		text-decoration: underline;
+	.click-to-share a.twiter:before {
+		content:"\f099";
 	}
+	.click-to-share a.facebook:before {
+		content:"\f099";
+	}
+
 </style>
 <script type="text/javascript">
 var url = window.location.protocol + "//" + window.location.host + window.location.pathname;
-var twshare = "https://twitter.com/intent/tweet?url=" + encodeURIComponent(url) + "&via=judithjanssen_"
+var twshare = "https://twitter.com/intent/tweet?url=" + encodeURIComponent(url) + "&via=judithjanssen_";
+var fbshare = "https://facebook.com/sharer.php?u=" + encodeURIComponent(url);
 
 $("blockquote p").each(function () {
-    var $link = $("<a>"),
-        linkText = "Click to tweet",
-        url = twshare + "&text=%22" + $(this).text() + "%22";
-    $link.attr("href", url);
-    $link.attr("title", "Tweet this");
-    $link.attr("target", "_blank");
-    $link.attr("class", "btn pull-right");
-    $link.text(linkText);
-    $link.addClass('tweet-this');
-    $(this).append($link);
+    var $share = $("<div>"),
+        $tw = $("<a>"),
+        $fb = $("<a>");
+    
+    $share.addClass('click-to-share btn pull-right');
+    $share.text("Click to share");
+
+    $tw.attr("href", twshare + "&text=%22" + $(this).text() + "%22");
+    $tw.attr("title", "Tweet this");
+    $tw.attr("target", "_blank");
+    $tw.addClass("fa fa-twitter");
+
+    $fb.attr("href", fbshare);
+    $fb.attr("title", "Share this on Facebook");
+    $fb.attr("target", "_blank");
+    $fb.addClass("fa fa-facebook-official");
+    
+    $share.append($tw);
+    $share.append($fb);
+    
+
+    $(this).append($share);
 });
 </script>
