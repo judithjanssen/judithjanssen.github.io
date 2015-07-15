@@ -4,19 +4,17 @@ prose:
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'img'
   ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
     - /_includes
+    - /_layouts
+    - /_sass
+    - /_plugins
     - .gitignore
     - .gitattributes
     - CNAME
     - Gemfile
     - Gemfile.lock
     - Guardfile
-    - /_includes
-    - /_sass
-    - /_plugins
+    - _config.yml
   metadata:
     _posts:
       - name: "title"
