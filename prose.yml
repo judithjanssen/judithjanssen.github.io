@@ -8,6 +8,15 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
+    - .gitignore
+    - .gitattributes
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - Guardfile
+    - /_includes
+    - /_sass
+    - /_plugins
   metadata:
     _posts:
       - name: "title"
