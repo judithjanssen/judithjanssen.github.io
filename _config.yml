@@ -43,3 +43,9 @@ defaults:
       path: "nl"
     values:
       lang: "nl"
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: blog-post
