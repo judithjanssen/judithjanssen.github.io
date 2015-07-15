@@ -12,12 +12,12 @@
 </style>
 <script type="text/javascript">
 var url = window.location.protocol + "//" + window.location.host + window.location.pathname;
-var twshare = "https://twitter.com/share?url=" + encodeURIComponent(url);
- 
+var twshare = "https://twitter.com/intent/tweet?url=" + encodeURIComponent(url) + "&via=judithjanssen_"
+
 $("blockquote p").each(function () {
     var $link = $("<a>"),
         linkText = "Click to tweet",
-        url = twshare + "&text=%22" + $(this).text() + "%22 by @judithjanssen_";
+        url = twshare + "&text=%22" + $(this).text() + "%22";
     $link.attr("href", url);
     $link.attr("title", "Tweet this");
     $link.attr("target", "_blank");
