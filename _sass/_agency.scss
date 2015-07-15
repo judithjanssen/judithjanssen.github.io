@@ -563,3 +563,15 @@ body {
 .fa {
     line-height: inherit;
 }
+
+
+
+.blog-content {
+    font-size: 1.2em;
+    .footnotes {
+        font-size: 0.8em;
+        margin-top: 5em;
+        color: $gray-light;
+        border-top: 1px solid $gray-lighter;
+    }
+}

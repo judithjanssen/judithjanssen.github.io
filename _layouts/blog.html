@@ -2,6 +2,7 @@
 layout: default
 class: blog
 ---
+<article>
   <header class="intro-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ page.image }}')">
     <div class="container">
         <div class="row">
@@ -15,13 +16,16 @@ class: blog
         </div>
     </div>
   </header>
-  <section class="container">
+  <section class="blog-content">
+    <div class="container">
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
         {{ content }}
       </div>
     </div>
+    </div>
   </section>
+</article>
   <section id="newsletter" class="bg-light-gray">
   <div class="container">
         {% include mailchimp-form.html heading="Feel inspired?"   subheading="I'm in the middle of preparing <strong>a meditation challenge</strong> and my new acts of love series.<br/><strong>Suscribe</strong> to my newsletter to stay tuned! No spam, I promise."  field="Email" button="Inspire me" %}
