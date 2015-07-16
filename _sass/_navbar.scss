@@ -1,13 +1,25 @@
 
 .navbar.navbar-default {
-    background-color: transparent;
-    border: none;
+    background-color: white;
+    border-bottom: 1px solid $gray-lighter;
+    + header {
+      margin-top: 80px;
+    }
     .navbar-nav > li a {
-        color: white;
         font-family: $font-family-sans-serif;
         text-transform: uppercase;
         &:hover {
           color: $primary;
+        }
+    }
+    @media (min-width: $screen-sm-min) {
+        background-color: transparent;
+        border-bottom: 1px solid transparent;
+        .navbar-nav > li a {
+          color: white;
+        }
+        + header {
+          margin-top: 0px;
         }
     }
 }

@@ -1,0 +1,24 @@
+{% if page.image %}
+    {% assign image = page.image %}
+{% else %}
+    {% assign image = '/img/share/health-and-wellness.png' %}
+{% endif %}
+
+{% if page.description %}
+    {% assign description = page.description %}
+{% else %}
+    {% assign description = site.description %}
+{% endif %}
+
+{% if page.title %}
+    {% if page.subtitle %}
+        {% capture title %}{{ page.title }}: {{ page.subtitle }}{% endcapture %}
+        {% assign title = title %}
+    {% else %}
+        {% assign title = page.title %}
+    {% endif %}
+{% else %}
+    {% assign title = site.title %}
+{% endif %}
+
+{% assign canonical = page.url | prepend: site.baseurl | prepend: site.url %}

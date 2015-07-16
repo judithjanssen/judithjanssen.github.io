@@ -1,0 +1,13 @@
+<script src="{{ "/js/jquery.socialshare.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+    $('.social-share').socialShare({
+        pinterest       : false,
+        url             : '{{ canonical }}',
+        description     : '{{ title | replace:"'","\\'" }}',
+        image           : '{{ image }}',
+        twitterVia      : 'judithjanssen_',
+        twitterHashTags : '{{ page.tags }}',
+        counts          : false,
+        toWord          : false
+    });
+</script>

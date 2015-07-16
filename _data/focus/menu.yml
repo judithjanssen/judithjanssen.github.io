@@ -13,7 +13,7 @@ en:
     class: page-scroll
   - label: Register
     link: '#register'
-    class: page-scroll btn btn-xl
+    class: page-scroll
 nl:
   - label: Info
     link: '#description'
@@ -29,7 +29,7 @@ nl:
     class: page-scroll
   - label: Reserveren
     link: '#register  '
-    class: page-scroll btn btn-xl
+    class: page-scroll
 es:
   - label: Descripción
     link: '#description'
@@ -45,4 +45,4 @@ es:
     class: page-scroll
   - label: Regístrate
     link: '#register'
-    class: page-scroll btn btn-xl
+    class: page-scroll
