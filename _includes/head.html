@@ -11,7 +11,11 @@
 {% endif %}
 
 {% if page.title %}
-    {% assign title = page.title %}
+    {% if page.subtitle %}
+        {% capture title %}{{ page.title }}: {{ page.subtitle }}{% endcapture %}
+    {% else %}
+        {% assign title = page.title %}
+    {% endif %}
 {% else %}
     {% assign title = site.title %}
 {% endif %}
