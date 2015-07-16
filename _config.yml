@@ -38,7 +38,7 @@ defaults:
       navbar: true
       logo: true
       section: sitewide
-      image: /img/blurred_lines.jpg
+      image: /img/unsplash/blurred_lines.jpg
   -
     scope:
       path: "es"
