@@ -45,4 +45,5 @@ defaults:
       type: posts
     values:
       layout: blog-post
+      description: 'thoughts on health, wellness, yoga and movement'
 
