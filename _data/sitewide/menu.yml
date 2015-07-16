@@ -1,9 +1,9 @@
 en:
-  - label: Thoughts
-    link: /blog/
   - label: Focus retreat
     link: /focus/
-  - label: About
+  - label: Thoughts
+    link: /blog/
+  - label: About me
     link: /about/
 nl:
   - label: Info

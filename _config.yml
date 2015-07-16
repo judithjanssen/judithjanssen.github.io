@@ -22,17 +22,23 @@ social:
 markdown: kramdown
 permalink: pretty
 
+# Collections
+collections:
+  pages:
+    output: true
+
 # Default values
 defaults:
   -
     scope: 
       path: ""
     values:
-      layout: "default"
+      layout: "page"
       lang: "en"
       navbar: true
       logo: true
       section: sitewide
+      image: /img/blurred_lines.jpg
   -
     scope:
       path: "es"

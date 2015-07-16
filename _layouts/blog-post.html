@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: default
 class: blog-post
 ---
+
+{% include image-header.html %}
 
 <section class="blog-content">
 	<div class="container">
@@ -11,4 +13,10 @@ class: blog-post
   			</div>
 		</div>
 	</div>
+</section>
+
+<section id="newsletter" class="bg-light-gray">
+  <div class="container">
+        {% include mailchimp-form.html heading="Feel inspired?"   subheading="I'm in the middle of preparing <strong>a meditation challenge</strong> and my new acts of love series.<br/><strong>Suscribe</strong> to my newsletter to stay tuned! No spam, I promise."  field="Email" button="Inspire me" %}
+  </div>
 </section>
