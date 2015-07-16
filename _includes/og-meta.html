@@ -1,6 +1,8 @@
-    <meta property="og:title" content="4-day holiday yoga retreat">
-    <meta property="og:site_name" content="Judith Janssen">
-    <meta property="og:url" content="https://judithjanssen.es">
-    <meta property="og:description" content="A mix of dynamic yoga sessions that will increase alignment and body awareness and restorative practices to unwind your body and mind and deepen your inner focus.">
-    <meta property="og:image" content="{{ "/img/health-and-wellness.png" | prepend: site.url }}">
+{% comment %} title, image and description are assigned in head.html {% endcomment %}
+
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="{{ image | prepend: site.url }}">
     <meta property="og:type" content="website">
