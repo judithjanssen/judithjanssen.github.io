@@ -2,7 +2,7 @@
 name: willpower
 title: Willpower
 subtitle: not only a matter of character
-permalink: /willpower
+permalink: /willpower/
 image: /img/posts/willpower.jpg
 ---
 
