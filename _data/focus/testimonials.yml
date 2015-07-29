@@ -1,3 +1,13 @@
+en:
+  heading: What they say about focus
+  subheading: This is the feedback we got from people who came to this retreat.
+  testimonials:
+    - name: Suzanne Hoyos
+      text: 'It was a beautiful experience for mi and now, back at my routine, I feel a great calm inside. We all need to disconnect doing something like this from time to time.'
+      img: '/img/testimonials/suzanne-hoyos.jpg'
+    - name: Anna Cremers
+      text: 'The first thing I did when I came back home was preparing a quiet room for my own yoga practice and buying a yoga mat! I had to admit; I was hooked.'
+      img: '/img/testimonials/anna-cremers2.jpg'
 es:
   heading: Testimonios
   subheading: Aquí tienes algunas experiencias de retiros anteriores.
@@ -8,7 +18,7 @@ es:
     - name: Anna Cremers
       text: 'La primera cosa que hice al volver a casa fue preparar una habitación tranquila y comprarme una esterilla de yoga. Tengo que admitirlo: me enganché.'
       img: '/img/testimonials/anna-cremers2.jpg'
-en:
+nl:
   heading: What they say about focus
   subheading: This is the feedback we got from people who came to this retreat.
   testimonials:
