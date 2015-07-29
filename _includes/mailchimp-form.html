@@ -12,6 +12,12 @@
 				
 				<div class="mc-field-group input-group">
 					<input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder={{ include.field }} required />
+					{% if page.lang == 'es' %}
+					<input type="hidden" value="2" name="group[13333]"
+id="mce-group[13333]-13333-1">
+					{% else %}
+					<input type="hidden" value="1" name="group[13333]" id="mce-group[13333]-13333-0">
+					{% endif %}
 					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 			    	<div style="position: absolute; left: -5000px;">
 			    		<input type="text" name="b_f0f81cef983bb229ef322fd37_2e6ae93853" tabindex="-1" value="" />
