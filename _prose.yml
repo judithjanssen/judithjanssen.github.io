@@ -31,7 +31,7 @@ prose:
       - name: "image"
         field:
           element: "text"
-          label: "Permalink"
+          label: "Image"
           value: ""
       - name: "permalink"
         field:
