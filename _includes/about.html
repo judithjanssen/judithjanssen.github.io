@@ -1,0 +1,24 @@
+{% assign data = site.data.sitewide.about[page.lang] %}
+{% if data %}
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="team-member">
+                <!--<h2 class="section-heading text-center">{{ data.name }}</h2>
+                <p class="text-muted">{{ data.tagline }}</p>-->
+                <img src="{{ data.image }}" class="img-responsive img-circle" alt="">
+                <br>
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                </li>
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            {{ data.bio }}
+        </div>
+    </div>
+
+{% endif %}
