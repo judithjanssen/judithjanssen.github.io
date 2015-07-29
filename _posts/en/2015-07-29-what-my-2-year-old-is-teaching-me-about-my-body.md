@@ -1,13 +1,12 @@
 ---
 published: true
-title: "What my 2-year-old is teaching me about my body"
-subtitle: Acts of love series
+title: "2-year-old"
+subtitle: "What my 2-year-old is teaching me about my body"
 image: "/img/posts/2-year-old.jpg"
 permalink: "2-year-old"
 ---
 
-
-This afternoon I was lying in bed with my youngest (2-year-old) as he was going to take a nap. It is already 6 months since I quit breastfeeding, which was not a big problem at all for him, but now and then he asks if he can try them to see if they´re still “working”, or he just wants to touch them. He still has an affective relationship with my breasts, which is not strange, considering that they were his and (his brothers) primary source of nutrition and affection and so much more things for quite a long time.
+This afternoon I was lying in bed with my youngest (2-year-old) as he was going to take a nap. It is already 6 months since I quit breastfeeding, which was not a big problem at all for him, but now and then he asks if he can try them to see if they´re still “working”, or he just wants to touch them. He still has an affective relationship with my breasts!, which is not strange, considering that they were his and (his brothers) primary source of nutrition and affection and so much more things for quite a long time.
 
 So he has a look, and he smiles and wholeheartedly exclaims: “Que bonitas”, which translates as “how beautiful”!
 
