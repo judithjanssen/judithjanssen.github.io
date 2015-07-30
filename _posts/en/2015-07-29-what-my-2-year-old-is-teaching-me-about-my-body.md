@@ -3,7 +3,7 @@ published: true
 title: "A two-year-old"
 subtitle: "What my 2-year-old is teaching me about my body"
 image: "/img/posts/2-year-old.jpg"
-permalink: "2-year-old"
+permalink: /two/
 ---
 
 
