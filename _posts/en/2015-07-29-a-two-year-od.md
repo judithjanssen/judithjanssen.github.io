@@ -4,8 +4,7 @@ title: "A two-year-old"
 subtitle: "What he is teaching me about my body"
 image: "/img/posts/2-year-old.jpg"
 permalink: /two/
-redirect_from:
-  - /2-year-old/
+redirect_from: /2-year-old/
 ---
 
 
