@@ -1,9 +1,11 @@
 ---
 published: true
 title: "A two-year-old"
-subtitle: "What my 2-year-old is teaching me about my body"
+subtitle: "What he is teaching me about my body"
 image: "/img/posts/2-year-old.jpg"
 permalink: /two/
+redirect_from:
+  - /2-year-old/
 ---
 
 
