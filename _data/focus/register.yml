@@ -5,8 +5,8 @@ en:
     <br>
     Have any questions?
     <a href="mailto:judith.janssen@gmail.com">Email me</a> or call me at +34 622 875 478.
-  price: '<span class="strike">450&euro;</span> 396€'
-  discount: '<strong>12% early bird discount</strong> until September 1st.<br/>'
+  price: '450&euro;'
+  discount: '<strike><strong>12% early bird discount</strong> until September 1st.</strike> Want to come with friends. Contact me for a group discount.'
   enable_payment: true
   call_to_action: 'Book now (Oct 1-5)'
   stripe-name: 'Focus! retreat booking'
