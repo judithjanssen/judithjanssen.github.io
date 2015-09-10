@@ -6,11 +6,11 @@ en:
     Have any questions?
     <a href="mailto:judith.janssen@gmail.com">Email me</a> or call me at +34 622 875 478.
   price: '450&euro;'
-  discount: '<strike><strong>12% early bird discount</strong> until September 1st.</strike> Want to come with friends. Contact me for a group discount.'
+  discount: '<strike><strong>12% early bird discount</strong> until September 1st.</strike><br>Want to come with friends. Contact me for a group discount.'
   enable_payment: true
   call_to_action: 'Book now (Oct 1-5)'
   stripe-name: 'Focus! retreat booking'
-  stripe-value: '39600'
+  stripe-value: '45000'
   stripe-description: 'Secure your place. Seats are limited.'
   panels:
     - name: 'Included'
@@ -39,11 +39,11 @@ nl:
     <a href="mailto:judith.janssen@gmail.com">Email mij</a> of
     <a href="https://www.facebook.com/events/1560697344196163">laat een reactie achter op Facebook</a>.
   price: '450&euro;'
-  discount: '<strike>12% vroege vogelkorting tot 1 september</strike>.<br/>Kom je samen met vrienden? Neem contact met me op voor een groepskorting.'
+  discount: '<strike>12% vroege vogelkorting tot 1 september</strike>.<br>Kom je samen met vrienden? Neem contact met me op voor een groepskorting.'
   enable_payment: true
   call_to_action: 'Boek nu (1-5 oktober)'
   stripe-name: 'Focus! retreat booking'
-  stripe-value: '39600'
+  stripe-value: '45000'
   stripe-description: 'Secure your place. Seats are limited.'
   panels:
     - name: 'Inbegrepen'

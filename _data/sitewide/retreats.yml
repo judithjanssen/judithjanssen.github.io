@@ -1,18 +1,18 @@
-- name: mi mamá se mima
-  date: 11-13 de Septiembre 2015
-  language: Castellano
-  description: Retiro de yoga para embarazadas y preparación al parto.
-  call_to_action: Ven y mímate
-  link_to: http://paraembarazadas.es/mi-mama-se-mima/
 - name: focus
   date: October 1st-5th
   language: English
   description: 4-day yoga retreat by the mediterranean sea.
   call_to_action: Join now!
-  link_to: /focus
+  link_to: /focus/
 - name: desconecta
   date: Octubre 2015
   language: Castellano
   description: Fin de semana de Yoga y Relax en la Marina Alta.
   call_to_action: Apúntate y desconecta
-  link_to: /es/desconecta
+  link_to: /es/desconecta/
+- name: mi mamá se mima
+  date: Oct-Nov 2015
+  language: Castellano
+  description: Retiro de yoga para embarazadas y preparación al parto.
+  call_to_action: Ven y mímate
+  link_to: http://paraembarazadas.es/mi-mama-se-mima/
