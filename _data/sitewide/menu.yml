@@ -1,9 +1,11 @@
 en:
-  - label: Focus retreat
-    link: /focus/
+  - label: Lessons
+    link: /lessons/
+  - label: Events
+    link: /events/
   - label: Thoughts
     link: /blog/
-  - label: About me
+  - label: About
     link: /about/
 nl:
   - label: Info
