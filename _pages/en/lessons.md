@@ -14,7 +14,7 @@ In general, there´s not much attention to breathing while working out, the mind
 
 Even yoga, when practised in a disrespectful way can cause harm to your body, and injury. So, for me, one of the key things in yoga is respect for your body. Yes, you CAN have a tough and exhilarating yoga workout, but always within the boundaries that your body, your constitution sets. 
 
-<h2 class="section-heading text-center">What is your teaching about?</h2>
+<h2 class="section-heading text-center">What is my teaching about?</h2>
 
 Respect for your body and empowerment are key elements in my teaching. I love anatomy, and I pay a lot of attention to restoring a proper posture and individual alignment, which means establishing a balanced alignment for YOUR specific body.
 
@@ -28,7 +28,7 @@ I think the future of yoga is specialisation. Yoga is a great way to keep body a
 
 So what I´m seeing in my private teaching is that because of the fact that you can adapt the practice completely to a specific person, the benefits are even greater than in a regular yoga class. 
 
-<h2 class="section-heading text-center">Who could benefit from your classes?</h2>
+<h2 class="section-heading text-center">Who could benefit from my classes?</h2>
 
 I think that private classes are especially beneficial for people that want a challenging but at the same time very respectful and focused workout, but also for people that are suffering from specific discomforts that need a personal approach. Also, I have students that prefer to have their yoga practice in the comfort of their own house, or at certain hours that are normally not that common for group classes. For example, I have students that prefer to practice yoga early in the morning of during lunchtime at their office. So, private classes are flexible and easy to fit in your schedule.
 
