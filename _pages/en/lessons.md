@@ -10,9 +10,7 @@ permalink: /lessons/
 
 <h2 class="section-heading text-center">Why yoga?</h2>
 
-Well, I´ve always been very physical, even as a girl, I was always running around, doing handstands, climbing trees, and yes, I love working out, dancing, moving in general. But I also went through the whole package: highschool, university, travelling, making career in  multinationals. At that time I felt quite disconnected from myself and disorientated as to where to go from there. And then, in my late twenties, I came across yoga. And for me it really was a revelation.
-
-I think in general, there´s not much attention to breathing while working out, the mind is not always addressed either, and we live in a culture with a “no pain no gain” motto. And I don´t completely agree, because, yes, the feeling that you get after a tough workout is great. But a lot of times, the way we work out can be harmful for your body, and even for your self-image. I think we better work for self-acceptance than for self-improvement, because otherwise your approach will have a negative and destructive character rather than a constructive and loving one.
+In general, there´s not much attention to breathing while working out, the mind is not always addressed either, and we live in a culture with a “no pain no gain” motto. And I don´t completely agree, because, yes, the feeling that you get after a tough workout is great. But a lot of times, the way we work out can be harmful for your body, and even for your self-image. I think we better work for self-acceptance than for self-improvement.
 
 Even yoga, when practised in a disrespectful way can cause harm to your body, and injury. So, for me, one of the key things in yoga is respect for your body. Yes, you CAN have a tough and exhilarating yoga workout, but always within the boundaries that your body, your constitution sets. 
 
