@@ -6,7 +6,7 @@ image: /img/about/judith-namaste.jpg
 permalink: /lessons/
 ---
           
-<h3 class="section-subheading text-muted text-center">I specialize in private lessons because I get to create really specific sessions that help my clients in exactly the way they need in the moment!</h3>
+<h3 class="section-subheading text-muted text-center">I specialise in private lessons because I get to create really specific sessions that help my clients in exactly the way they need in the moment!</h3>
 
 <h2 class="section-heading text-center">Why yoga?</h2>
 
