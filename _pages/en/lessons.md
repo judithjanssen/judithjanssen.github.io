@@ -28,9 +28,9 @@ I think the future of yoga is specialisation. Yoga is a great way to keep body a
 
 So what I´m seeing in my private teaching is that because of the fact that you can adapt the practice completely to a specific person, the benefits are even greater than in a regular yoga class. 
 
-<h2 class="section-heading text-center">What kind of people would look for private classes?</h2>
+<h2 class="section-heading text-center">Who could benefit from your classes?</h2>
 
-I think that private classes are especially beneficial for yoga students that look for a challenging but at the same time very respectful and focused workout, but also for people that are suffering from specific discomforts that need a personal approach. Also, I have students that prefer to have their yoga practice in the comfort of their own house, or at certain hours that are normally not that common for group classes. For example, I have students that prefer to practice yoga early in the morning of during lunchtime at their office. So, private classes are flexible and easy to fit in your schedule.
+I think that private classes are especially beneficial for people that want a challenging but at the same time very respectful and focused workout, but also for people that are suffering from specific discomforts that need a personal approach. Also, I have students that prefer to have their yoga practice in the comfort of their own house, or at certain hours that are normally not that common for group classes. For example, I have students that prefer to practice yoga early in the morning of during lunchtime at their office. So, private classes are flexible and easy to fit in your schedule.
 
 <h2 class="section-heading text-center">What´s next?</h2>
 
