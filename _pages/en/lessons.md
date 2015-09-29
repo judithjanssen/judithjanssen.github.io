@@ -1,7 +1,7 @@
 ---
 layout: page
-title: private lessons 
-subtitle: for women's health & wellness
+title: lessons 
+subtitle: regular sessions for your health & wellness
 image: /img/about/judith-namaste.jpg
 permalink: /lessons/
 ---
