@@ -28,7 +28,13 @@ defaults:
       navbar: true
       logo: true
       section: sitewide
+      class: page
       image: /img/unsplash/blurred_lines.jpg
+      newsletter:
+        heading: Feel inspired?
+        subheading: "I'm in the middle of preparing <strong>a meditation challenge</strong> and my new acts of love series.<br/><strong>Suscribe</strong> to my newsletter to stay tuned! No spam, I promise."
+        field: Email
+        button: Inspire me
   -
     scope:
       path: "es"

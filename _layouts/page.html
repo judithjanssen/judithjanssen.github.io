@@ -16,6 +16,6 @@ class: blog
 
 <section id="newsletter" class="bg-light-gray">
   <div class="container">
-        {% include mailchimp-form.html heading="Feel inspired?"   subheading="I'm in the middle of preparing <strong>a meditation challenge</strong> and my new acts of love series.<br/><strong>Suscribe</strong> to my newsletter to stay tuned! No spam, I promise."  field="Email" button="Inspire me" %}
+    {% include mailchimp-form.html heading=page.newsletter.heading subheading=page.newsletter.subheading field=page.newsletter.field button=page.newsletter.button %}
   </div>
 </section>
