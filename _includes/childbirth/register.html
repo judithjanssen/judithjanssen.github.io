@@ -1,0 +1,15 @@
+{% assign data = site.data.childbirth.register[page.lang] %}
+
+<section id="register">
+  <div class="container">
+    {% if data.enable_payment  %}
+
+        {% include stripe-form.html %}
+
+    {% else %}
+                
+        {% include mailchimp-form.html heading=data.disabled.heading subheading=data.disabled.subheading button=data.disabled.button field="Email" %}
+
+    {% endif %}
+  </div>
+</section>

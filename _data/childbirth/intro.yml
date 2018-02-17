@@ -1,0 +1,16 @@
+en:
+  buttons:
+    - label: 'More info'
+      link: '#description'
+      class: 'page-scroll btn btn-primary outline btn-lg'
+    - label: 'Upcoming dates'
+      link: '#register'
+      class: 'page-scroll btn btn-primary outline btn-lg'
+nl:
+  heading: 'focus'
+  subheading: '4-daagse yogavakantie aan de Middellandse zee'
+  date: '1 - 5 October 2015'
+  buttons:
+    - label: 'Lees meer'
+      link: '#description'
+      class: 'page-scroll  btn btn-primary outline btn-lg'

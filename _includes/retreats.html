@@ -10,7 +10,7 @@
       {% for retreat in retreats %}
       <div class="col-md-6">
         <div class="well well-lg">
-          <h2 class="">{{ retreat.name }}<br><p class="small text-muted">{{ retreat.date }}  ({{ retreat.language }})</p></h2>
+          <h2 class="">{{ retreat.name }}<br><p class="small text-muted">{{ retreat.date }}  ({{ retreat.location }})</p></h2>
           <p class="text-muted">{{ retreat.description }}</p>
           <a class="btn btn-primary outline" href="{{ retreat.link_to }}">
             {{ retreat.call_to_action }}

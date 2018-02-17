@@ -1,0 +1,10 @@
+- name: BirthMoves weekend
+  location: Maastricht
+  description: an urban-retreat for childbirth preparation with your partner.
+  call_to_action: Join now!
+  link_to: /childbirth-education/maastricht
+  upcoming:
+    - May 26th-27th
+    - August 18th-19th
+    - Nov 24th-25th
+      

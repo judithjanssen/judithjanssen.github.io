@@ -1,0 +1,48 @@
+en:
+  - label: Description
+    link: '#description'
+    class: page-scroll
+  - label: Location
+    link: '#location'
+    class: page-scroll
+  - label: Schedule
+    link: '#schedule'
+    class: page-scroll
+  - label: Testimonials
+    link: '#testimonials'
+    class: page-scroll
+  - label: Register
+    link: '#register'
+    class: page-scroll
+nl:
+  - label: Info
+    link: '#description'
+    class: page-scroll
+  - label: Locatie
+    link: '#location'
+    class: page-scroll
+  - label: Programma
+    link: '#schedule'
+    class: page-scroll
+  - label: Testimonials
+    link: '#testimonials'
+    class: page-scroll
+  - label: Reserveren
+    link: '#register  '
+    class: page-scroll
+es:
+  - label: Descripción
+    link: '#description'
+    class: page-scroll
+  - label: El lugar
+    link: '#location'
+    class: page-scroll
+  - label: Horario
+    link: '#schedule'
+    class: page-scroll
+  - label: Testimonios
+    link: '#testimonials'
+    class: page-scroll
+  - label: Regístrate
+    link: '#register'
+    class: page-scroll

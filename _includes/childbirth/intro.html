@@ -1,0 +1,14 @@
+{% assign data = site.data.childbirth.intro[page.lang] %}
+<!-- Header -->
+<header class="childbirth-maastricht-header">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading">{{ page.title }}</div>
+            <div class="intro-lead-in">{{ page.description }}</div>
+            <div class="intro-lead-out">{{ page.location }}</div>
+            {% for button in data.buttons %}
+            <a href="{{ button.link }}" class="{{ button.class }}">{{ button.label }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</header>

@@ -1,16 +1,17 @@
 en:
-  - label: Lessons
-    link: /lessons/
-  - label: Retreats
-    link: /events/
-  - label: Thoughts
-    link: /blog/
+  - label: Birth Support
+    link: /birth-supportt/
+  - label: Childbirth Education
+    link: /childbirth-education/
   - label: About
     link: /about/
 nl:
-  - label: Info
-    link: /nl/blog/
-    class: page-scroll
+  - label: Birth Support
+    link: /nl/birth-supportt/
+  - label: Childbirth Education
+    link: /nl/childbirth-education/
+  - label: About
+    link: /nl/about/
 es:
   - label: Descripción
     link: /es/blog/

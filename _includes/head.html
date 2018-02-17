@@ -4,8 +4,11 @@
     <title>{{ title }}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ description }}">
-    <link rel="canonical" href="{{ canonical }}">
-
+    {% if page.canonical %}
+    <link rel="canonical" href="{{ page.canonical }}">
+    {% elsif page.permalink %}
+    <link rel="canonical" href="{{ page.permalink }}">
+    {% endif %}
     {% include stylesheets.html %}
     
     {% include ie-shims.html %}

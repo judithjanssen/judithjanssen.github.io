@@ -1,0 +1,75 @@
+en:
+  heading: 'Get ready for childbirth with your partner'
+  subheading: > 
+    A relaxing and inspiring weekend where you can share experiences with other expecting couples and prepare 
+    together for labour in the beautiful city of Maastricht.
+  iconized:
+    - icon: 'fa-book'
+      title: 'Childbirth education'
+      body: 'Get tools to navigate pregnancy, childbirth and early parenthood during the comprehensive workshops.'
+    - icon: 'fa-heartbeat'
+      title: 'Prenatal yoga'
+      body: 'Take care of your body and mind in the yoga sessions designed for pregnancy (previous experience is not required).'
+    - icon: 'fa-bed'
+      title: 'Time to relax'
+      body: 'Disconnect from everyday life to connect with your baby and partner/dedicate time to yourself and your partner.'
+  # Why focus?
+  title: 'There’s no such thing as a birth manual.'
+  subtitle: 'Every birth is unique, and marks the beginning as well as the end of an era. '
+  paragraphs:
+    - 'There exists a great deal of fear around pregnancy and birth and a lack of confidence in our ability to give birth. Yes, <strong>birth will be intense</strong> on many different levels. How could it not be? You’re giving life to a human being! It is also an amazingly empowering experience.'
+    - 'In the workshops you will learn all about the miraculous process of birth so you can create the optimal conditions for you to give birth to your baby. We will also provide you with tools to create confidence in your body, to manage the intensity of labour and to empower yourself by making informed choices.'
+    - 'In the workshops you will learn all about the miraculous process of birth so you can create the optimal conditions for you to give birth to your baby. We will also provide you with tools to create confidence in your body, to manage the intensity of labour and to empower yourself by making informed choices.'
+    - 'By the end of this weekend you will:'
+    - <ul class="text-muted large">
+      <li>Understand how the Dutch birth care system works</li>
+      <li>Understand the physiology of childbirth and your needs during labour</li>
+      <li>Have tools to navigate and facilitate labour</li>
+      <li>Have learnt ways in which your partner can support you</li>
+      <li>Understand postpartum physiology and your babies` needs during the first hour and days</li>
+      <li>Have in-depth information on breastfeeding and how to facilitate successful breastfeeding </li>
+      <li>Be able to write a personal birth plan</li>
+      <li>Have tools to take care of your body right after birth</li>
+      </ul>
+nl:
+  heading: 'Info'
+  subheading: 'Deze yogavakantie biedt je een combinatie van ontladen en opladen met dynamische yogasessies waarin de nadruk ligt op houding en lichaamsbewustzijn, en herstellende bodymind-technieken om je lijf en brein compleet te laten ontspannen.'
+  iconized:
+    - icon: 'fa-heartbeat'
+      title: 'Heerlijk bewegen'
+      body: 'Een actieve dagelijkse routine met ochtend- en namiddagsessies die je lijf en brein tegelijkertijd energie en ontspanning geven.'
+    - icon: 'fa-sun-o'
+      title: 'Heerlijk weer'
+      body: 'Ik kan natuurlijk niet 100% garanderen dat de zon zal schijven. Maar we hebben het over eind mei in de zonnigste streek van heel Europa, dus vergeet je zonnebrandcrème niet!'
+    - icon: 'fa-cutlery'
+      title: 'Heerlijk eten'
+      body: 'Geweldige vegetarische gerechten met de beste lokale en biologische ingrediënten om je lichaam een gezonde oppepper te geven.'
+  # Why focus?
+  title: 'Waarom focus?'
+  subtitle: 'Aandacht, in al zijn vormen, heeft een zeer krachtige invloed op hoe we ons voelen en de manier waarop we door het leven gaan.'
+  paragraphs:
+    - '<strong>De interne aandacht helpt je te verbinden met je intuïties en waarden</strong> die je helpen bij het maken van beslissingen; de externe focus helpt je in de wereld om je heen te navigeren; aandacht voor anderen is belangrijk voor de relaties met de mensen om je heen.'
+    - 'De moderne samenleving maakt het je echter niet makkelijk om aandachtig te zijn.'
+    - 'In de versnelde, zeer complexe maatschappij waarin we leven, krijgen we <strong>een constante stroom van afleidingen</strong> binnen via onze smartphones en laptops, die onze zogenaamde monkey mind voedt, met zeer korte aandachtsspannes en verstrooide gedachten tot gevolg.'
+    - 'Het goede nieuws is: <strong>je kunt je lijf en brein, en daarmee je bewustzijn trainen</strong>!'
+    - '<strong>Ik nodig je uit om in de wonderlijke wereld van je lichaam en brein binnen te stappen</strong>, intiem te worden, en zo je innerlijke focus te verfijnen.'
+es:
+  heading: 'Descripción'
+  subheading: 'Ven a este retiro para cargar las pilas, aumentar tu conciencia corporal y encontrar el equilibrio mente-cuerpo a través del yoga y el movimiento.'
+  iconized:
+    - icon: 'fa-heartbeat'
+      title: 'Ejercicio equilibrado'
+      body: 'Actívate por la mañana y relájate al aterdecer con sesiones de yoga aptas para todos los niveles y diseñadas para hacerte sentir bien y aumentar tu energía.'
+    - icon: 'fa-bell-slash-o'
+      title: 'Ambiente relajado'
+      body: 'El retiro se realiza en un verdadero oasis de belleza y tranquilidad con rincones para cada momento: disfruta de la piscina en compañía o encuentra un rincón tranquilo solo para ti.'
+    - icon: 'fa-cutlery'
+      title: 'Comida sana'
+      body: 'Déjate querer, a mesa puesta, con deliciosa comida vegetariana cocinada con amor y los mejores ingredientes. Notarás la diferencia desde el primer bocado.'
+  # Why focus?
+  title: '¿Por qué desconectar?'
+  subtitle: 'Los estímulos, las prisas y la rutina del día a día hacen que nos olvidemos de lo realmente importante.'
+  paragraphs:
+    - 'La atención, en todas sus formas, tiene una enorme influencia en cómo nos sentimos y cómo nos desenvolvemos en la vida diaria. La atención interior nos permite <strong>escuchar nuestras necesidades</strong> y la atención exterior nos ayuda a <strong>estar presentes en el momento, a conectar con los demás y disfrutar de la vida</strong>.'
+    - 'La vida moderna, sin embargo, no facilita cultivar la atención. Vivimos inmersos <strong>en un mundo de prisas y de distracciones</strong>. A veces hay que desconectar para reconectar con uno mismo y con el mundo que nos rodea.' 
+    - 'Con este retiro <strong>te invito a desconectar y a reconectar con tu cuerpo y tu mente</strong> a través del yoga, el movimento y la relajación.'

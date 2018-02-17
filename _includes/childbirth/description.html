@@ -1,0 +1,36 @@
+{% assign data = site.data.childbirth.description[page.lang] %}
+<!-- Description Section -->
+    <section id="description">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <h2 class="section-heading">{{ data.heading }}</h2>
+
+                    <h3 class="section-subheading text-muted">{{ data.subheading }}</h3>
+
+                </div>
+            </div>
+            <div class="row text-center extra-margin">
+            {% for feature in data.iconized %}
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa {{ feature.icon }} fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">{{ feature.title }}</h4>
+                    <p class="text-muted">{{ feature.body }}</p>
+                </div>
+            {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h2 class="section-heading text-center">{{ data.title }}</h2>
+
+                    <h3 class="section-subheading text-muted text-center less-margin">{{ data.subtitle }}</h3>
+                    {% for paragraph in data.paragraphs %}
+                      <p class="text-muted large">{{ paragraph }}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>

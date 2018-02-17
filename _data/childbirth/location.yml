@@ -1,0 +1,142 @@
+en:
+  heading: Location
+  subheading: 'BirthMoves weekend will take place at Verloskundig huis Lief Leven, Maastricht'
+  location: 
+    - title: 'Verloskundig huis Lief Leven'
+      description: 
+        - class: 'text-muted large'
+          content: 'Franciscus Romanusweg 41, Maastricht (<a href="http://verloskundighuisliefleven.nl">website</a>)'
+      images:
+        - url:   huisliefleven/praktijk2.jpg
+          title: 
+          alt:   erloskundig huis Lief Leven
+        - url:   huisliefleven/praktijk1.jpg
+          title: 
+          alt:   erloskundig huis Lief Leven
+        - url:   huisliefleven/praktijk1.jpg
+          title: 
+          alt:   erloskundig huis Lief Leven
+    - title: 'Maastricht'
+      description: 
+        - class: 'text-muted large'
+          content: 'A place where north and south meet: Maastricht lies at the crossroads of the three countries that together make up the Euregion Meuse-Rhine. Maastricht offers a real getaway feeling because of it’s foreign look and feel.'
+        - class: 'text-muted large'
+          content: 'Because of it’s small size, everything is within walking distance and it’s beautiful architecture, it’s a great place to stroll around and enjoy the bon vivant life the city has to offer. '
+      images:
+        - url: 'maastricht/MaastrichtAltstadt.jpg'
+          title: 'The maas'
+          alt: 'The mass river'
+        - url: 'maastricht/Vrijthof_in_Maastricht.jpg'
+          title: 'Vrijthof'
+          alt: 'Vrijthof square, Maastricht'
+        - url: 'maastricht/Stadhuis_Maastricht.jpg'
+          title: 'Stadhuis'
+          alt: 'Stadhuis, Maastricht'
+nl:
+  heading: Locatie
+  subheading: 'Het yogaweekend vindt plaats in El Botánico de Sagra, een magische kleine wereld van intense kleur'
+  location: 
+    title: 'El Botánico de Sagra'
+    description: 
+      - class: 'text-muted large'
+        content: '17.000 m² uitbundige natuur, exotische fruitbomen, bloemen, de geur van jasmijn en oranjebloesem in de lucht en perfect geïntegreerde woonruimtes.'
+      - class: 'text-muted large'
+        content: 'El Botánico ligt aan de voet van een berg en wordt omringd door velden sinaasappel-, amandel-, kersen- en olijfbomen. Het is gelegen in Sagra, een klein dorpje van ongeveer 400 inwoners op het platteland van Zuid-Oost Spanje, op 15 minuten afstand van zee.'
+    images:
+      - url:   botanico/piscina.jpg
+        title: Bronwaterzwembad
+        alt:   Bronwaterzwembad
+      - url:   botanico/sala-yoga.jpg
+        title: Yogaruimte
+        alt:   De yogaruimte kijkt uit over het zwembad
+      - url:   botanico/dining-room.jpg
+        title: Keuken en eetgedeelte
+        alt:   Keuken en eetgedeelte
+      - url:   botanico/malva1.jpg
+        title: Casa Malva
+        alt:   Prachtig terras bij Casa Malva
+      - url:   botanico/bodega2.jpg
+        title: Bodega
+        alt:   Prachtige woonkamer in la Bodega
+      - url:   botanico/azul4.jpg
+        title: Casa azul
+        alt:   Prachtige slaapkamer in la Casa Azúl
+      - url:   botanico/azul3.jpg
+        title: Casa azul
+        alt:   La Casa Azúl
+      - url:   botanico/azul2.jpg
+        title: Casa azul
+        alt:   Geweldig uitlopend terras bij slaapkamer 
+      - url:   botanico/roja.jpg
+        title: Casa roja
+        alt:   Exotische woonkamer in la Casa Roja
+  surroundings:
+    title: 'Omgeving'
+    description: 
+      - class: 'text-muted large'
+        content: 'Sagra bevindt zich in het noorden van de provincie Alicante, aan de Middellandse Zeekust van Spanje, een uur van de luchthavens van zowel Valencia als Alicante.'
+      - class: 'text-muted large'
+        content: 'Dit gebied heeft een enorme verscheidenheid aan landschappen omdat het een prachtige combinatie is van platteland en bergen met een adembenemend uitzicht en de prachtige kust (op slechts 15 minuten rijden) waar je zowel witte zandstranden als kleine rotsachtige baaien kunt vinden. Als je je verblijf voor of na het weekend wil verlengen, kun je ook andere interessante plaatsen bezoeken, zoals Dènia, Jávea, Altea en Valencia of zelfs de veerboot nemen naar Ibiza.'
+    images:
+      - url: 'botanico/deniaplaya.jpg'
+        title: 'Strand bij Denia'
+        alt: 'Uitgestrekt zandstrand met uitzicht op de Montgó berg'
+      - url: 'botanico/vall_de_laguar.jpg'
+        title: 'Vall de Laguar'
+        alt: 'Adembenemende uitzichten vanaf de Vall de Laguar'
+      - url: 'botanico/cala-ambolo.jpg'
+        title: 'Cala Ambolo (Jávea)'
+        alt: 'Prachtige baai vlakbij Jávea'
+es:
+  heading: El lugar
+  subheading: 'El retiro tiene lugar en El Botánico de Sagra, un pequeño mundo mágico lleno de naturaleza y color.'
+  location: 
+    title: 'El Botánico de Sagra'
+    description: 
+      - class: 'text-muted large'
+        content: '17.000 m² de naturaleza exuberante, frutales exóticos, flores, olor a jazmín y azahar y estancias llenas de color, perfectamente integradas en el entorno y cuidadas hasta el último detalle.'
+      - class: 'text-muted large'
+        content: 'El Botánico está en Sagra, un pequeño pueblo de la Marina Alta a los pies de la montaña, rodeado de naranjos, almendros, cerezos y olivos.'
+    images:
+      - url:   botanico/piscina.jpg
+        title: Piscina
+        alt:   Piscina de agua de manantial
+      - url:   botanico/sala-yoga.jpg
+        title: Sala de yoga
+        alt:   Espacio para las clases de yoga junto a la piscina
+      - url:   botanico/dining-room.jpg
+        title: Cocina y salón comedor
+        alt:   Cocina y salón comedor
+      - url:   botanico/malva1.jpg
+        title: Casa Malva
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/bodega2.jpg
+        title: Bodega
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul4.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul3.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/azul2.jpg
+        title: Casa azul
+        alt:   Beatuiful living room in the Casa Azul
+      - url:   botanico/roja.jpg
+        title: Casa roja
+        alt:   Exotic living room in the Casa Roja
+  surroundings:
+    title: 'Alrededores'
+    description: 
+      - class: 'text-muted large'
+        content: 'Sagra está situado en la Marina Alta, al norte de la provincia de Alicante, a una hora de Valencia y de Alicante. Se trata de una comarca con una gran variedad de paisajes que combina los pueblos de montaña con vistas al mar y la zona de costa con pequeñas calas y extensas playas de arena.'
+    images:
+      - url: 'botanico/deniaplaya.jpg'
+        title: 'Playa de les Deveses (Denia)'
+        alt: 'Natural beach with views at the Montgó mountain'
+      - url: 'botanico/vall_de_laguar.jpg'
+        title: 'Vall de Laguar'
+        alt: 'Breathtaking views from Vall de Laguar'
+      - url: 'botanico/cala-ambolo.jpg'
+        title: 'Cala Ambolo (Jávea)'
+        alt: 'Beautiful cala Ambolo near Jávea'
