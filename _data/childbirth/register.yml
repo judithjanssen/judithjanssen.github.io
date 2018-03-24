@@ -7,7 +7,11 @@ en:
     <a href="mailto:judith.janssen@gmail.com">Email me</a> or call me at +34 622 875 478.
   price: '450&euro;'
   discount: '<strike><strong>12% early bird discount</strong> until September 1st.</strike><br>Want to come with friends. Contact me for a group discount.'
-  enable_payment: true
+  enable_payment: false
+  disabled: 
+    heading: 'Retreats will start end of May 2018'
+    subheading: 'Subscribe to get notified when dates are published and registration opens'
+    button: 'Notify me'
   call_to_action: 'Book now (Oct 1-5)'
   stripe-name: 'Focus! retreat booking'
   stripe-value: '45000'
@@ -40,7 +44,7 @@ nl:
     <a href="https://www.facebook.com/events/1560697344196163">laat een reactie achter op Facebook</a>.
   price: '450&euro;'
   discount: '<strike>12% vroege vogelkorting tot 1 september</strike>.<br>Kom je samen met vrienden? Neem contact met me op voor een groepskorting.'
-  enable_payment: true
+  enable_payment: false
   call_to_action: 'Boek nu (1-5 oktober)'
   stripe-name: 'Focus! retreat booking'
   stripe-value: '45000'
