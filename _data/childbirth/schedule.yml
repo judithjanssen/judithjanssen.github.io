@@ -9,46 +9,30 @@ en:
     - 'If you arrive early or leave late, let me know so I can arrange an additional yoga session.'
   timeline:
     - header: '<br>Saturday'
-    - image: '/img/about/w.jpg'
-      time: '10:00 AM'
+    - time: '09:30 AM'
       title: 'Welcome session'
-      body: 'TODO'
       class:
-    - image: '/img/about/yoga.jpg'
-      time: '10:30 AM'  
+    - time: '10:00 AM'  
       title: 'Prenatal yoga / men group'
-      body: 'TODO'
       class: 'timeline-inverted'
-    - image: /img/about/free-time.JPG
-      time: '12:00 PM'
+    - time: '12:00 PM'
       title: 'Lunch'
-      body: 'TODO'
       class:
-    - image: '/img/about/relax.jpg'
-      time: '13:00 PM'
+    - time: '13:00 PM'
       title: 'Childbirth workshop'
-      body: 'TODO'
       class: timeline-inverted
     - header: '<br>Sunday'
-    - image: '/img/about/yoga.jpg'
-      time: '9:30 AM'
+    - time: '9:30 AM'
       title: 'Prenatal yoga'
-      body: 'TODO'
       class:
-    - image: '/img/about/yoga.jpg'
-      time: '11:00 AM'
+    - time: '11:00 AM'
       title: 'Workshop Preparation for early parenthood'
-      body: 'TODO'
       class: timeline-inverted
-    - image: '/img/about/yoga.jpg'
-      time: '12:00 AM'
+    - time: '12:00 AM'
       title: 'Lunch'
-      body: 'TODO'
       class: 
-    - image: '/img/about/yoga.jpg'
-      time: '13:00 AM'
-      title: 'Closing'
-      body: 'TODO'
+    - time: '13:00 AM'
+      title: 'Closing session'
       class: timeline-inverted
     - header: 'Join me<br>on this<br>retreat!'
 nl:

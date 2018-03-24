@@ -27,12 +27,15 @@
                                 <img class="img-circle img-responsive" src="{{ moment.image }}" alt="">
                                 {% elsif moment.header %}
                                 <h4>{{ moment.header }}</h4>
+                                {% elsif moment.time %}
+                                <h4><br>{{ moment.time }}</h4>
                                 {% endif %}
                             </div>
-                            {% if moment.time | moment.title | moment.body %}
+                            {% if moment.title | moment.body %}
                             <div class="timeline-panel">
+                                <br><br>
                                 <div class="timeline-heading">
-                                    <h4 class="subheading">{{ moment.time }} - {{ moment.title }}</h4>
+                                    <h4 class="subheading">{{ moment.title }}</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">{{ moment.body }}</p>
