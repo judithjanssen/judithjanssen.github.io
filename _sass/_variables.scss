@@ -13,4 +13,11 @@ $color-text: #333;
 $color-text-muted: #777;
 
 $navbar-height: 				80px;
-//$grid-float-breakpoint:			992px;
+
+$breakpoints: (
+  'xsmall': 320px,
+  'small': 480px,
+  'medium': 768px,
+  'wide': 1024px,
+  'xwide': 1200px
+)

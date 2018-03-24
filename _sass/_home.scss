@@ -1,15 +1,25 @@
 .homepage {
-	h1, h2, h3, h4{
-       text-transform: none;
-       font-weight: 400;
-	}
-}
-.homepage h1 {
-	font-size: 1rem;
-	font-weight: 400;
-}
-
-.home-background {
+  section {
+    padding-top: 2em;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-transform: none;
+    font-weight: 400;
+  }
+  h1 {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .home-header {
+    position: relative;
+  }
+  .well {
+    background-color: white;
+  }
+  .home-background {
     background-image: url(../img/judith-home-small.jpg);
     background-position: top left;
     background-repeat: no-repeat;
@@ -20,104 +30,95 @@
     width: 100%;
     padding-bottom: 80%;
     z-index: -10;
-}
-
-.homepage .logo {
-  display: none;
-}
-
-@media (min-width: 768px){
-  .homepage .navbar-default {
-    background-color: transparent;
-    .nav li a {
-      color: $text-color;
+    @include media ('>medium') {
+      background-image: url(../img/judith-home.jpg);
+      padding-bottom: 40%;
+    }
+    @include media ('>wide') {
+      padding-bottom: 35%;
+    }
+    @include media('>xwide') {
+      background-image: url(../img/judith-home-big.jpg);
+      padding-bottom: 35%;
+    }
+  }
+  @include media ('>medium') {
+    .logo {
+      display: none;
+    }
+    .navbar-default {
+      background-color: transparent;
+      .nav li a {
+        color: $text-color;
+      }
+    }
+  }
+  .introduction-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include media ('<medium') {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .introduction {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 1em 20%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    @include media ('>small') {
+    }
+    @include media ('>medium') {
+      width: 300px;
+      padding: 1em;
+      background-color: transparent;
+      top: 90px;
+      bottom: auto;
+      right: 0;
+      left: auto;
+    }
+    @include media ('>wide') {
+      top: 100px;
+      width: 350px;
+    }
+    @include media('>xwide') {
+      top: 120px;
+      width: 450px;
+    }
+    .name img {
+      display: none;
+      width: 100%;
+      @include media ('>medium') {
+        display: block;
+      }
+    }
+    .slabtext {
+      visibility: hidden;
+    }
+    &.slabtextdone .slabtext {
+      visibility: visible;
+    }
+    &.slabtextinactive {
+      span.heading {
+        font-size: 20px;
+        @include media('<250px', '>300px') {
+          font-size: 24px;
+        }
+      }
+      span.subheading {
+        font-size: 12px;
+        @include media('<250px', '>300px') {
+          font-size: 14px;
+        }
+      }
     }
   }
 }
-
-.introduction {
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	text-align: center;
-	padding: 1em 1em;
-}
-
-.introduction .slabtext {
-  visibility: hidden;
-}
-
-.introduction.slabtextdone .slabtext {
-  visibility: visible;
-}
-
-.introduction .name img {
-	width: 100%;
-}
-
-@media(min-width:480px) {
-   .home-background {
-   	  padding-bottom: 36%;
-   }
-   .introduction {
-      position: absolute;
-      top: 80px; right: 10px;
-      width: 250px;
-   		padding: 1em;
-   }
-}
-
-@media(min-width:768px) {
-   .home-background {
-      background-image: url(../img/judith-home.jpg);
-   	  padding-bottom: 40%;
-   }
-   .introduction {
-   	  width: 300px;
-   }
-}
-
-@media(min-width:992px) {
-   .home-background {
-   	  padding-bottom: 35%;
-   }
-   .introduction {
-   	  width: 350px;
-   	  top: 60px; right: 50px;
-   }
-}
-
-@media(min-width:1200px) {
-   .home-background {
-    background-image: url(../img/judith-home-big.jpg);
-    padding-bottom: 35%;
-   }
-   .introduction {
-   	  width: 450px;
-   	  top: 100px; right: 100px;
-   }	
-}
-
-.slabtextinactive span.heading {
-font-size: 20px;
-}
-
-.slabtextinactive span.subheading {
-	font-size: 12px;
-}
-
-@media (min-width:240px) and (max-width: 300px){
-  .slabtextinactive span.heading {
-	font-size: 24px;
-	}
-	.slabtextinactive span.subheading {
-		font-size: 14px;
-	}
-}
-
-.homepage section {
-	padding-top: 2em;
-}
-
-.well {
-  background-color: white;
-}
-
